@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap {width:950px;font-size:12px; margin:0; padding:0; margin-left:1px; margin-bottom:1px; padding-top: 5px}
+.gnb_main {width:auto;background: url("/images/main002.gif") repeat-x; height: 50px}
+.gnb_main .mainImg {padding-left: 20px}
+
+.selheader {line-height: 21px; vertical-align: middle}
+.head_search_btn {background: url("/images/main004.gif"); margin: 0px; padding: 0px; width: 48px; height: 21px; margin-top: 0px; border: 0px}
+
+.gnb_btns {display: inline; margin-left: 8px; vertical-align: middle}
+.gnb_btns li {display: inline; margin: 0 0 0 3px; padding:3px 15px 0 0; background: url("/images/btn/main006.gif") top right no-repeat}
+.gnb_btns .no_bar{display: inline; margin: 0px;  background: none}
+.head_btn1 {background: url("/images/btn/main005.gif"); margin: 0px; padding: 0px; width: 85px; height: 21px; margin-top: 3px; border: 0px; cursor: pointer}
+.head_btn2 {background: url("/images/btn/main007.gif"); margin: 0px; padding: 0px; width: 70px; height: 21px; margin-top: 3px; border: 0px; cursor: pointer}
+.head_btn3 {background: url("/images/btn/main008.gif"); margin: 0px; padding: 0px; width: 79px; height: 21px; margin-top: 3px; border: 0px; cursor: pointer}
+.head_btn4 {background: url("/images/btn/main009.gif"); margin: 0px; padding: 0px; width: 55px; height: 21px; margin-top: 3px; border: 0px; cursor: pointer}
+
