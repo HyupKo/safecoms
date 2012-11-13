@@ -21,7 +21,7 @@
 			<li><input type="button" class="left_btn3" title="장터게시판"></li>
 			<li>공지사항</li>
 			<li>자유게시판</li>
-			<li>질문과 답변(Q&A)</li>
+			<li>질문과 답변(QnA)</li>
 			<li>이용후기</li>
 			<li>건의사항</li>
 			<li>불량사용자 신고</li>
