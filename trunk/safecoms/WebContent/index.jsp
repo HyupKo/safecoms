@@ -11,6 +11,7 @@
 <body>
 <div id="wrap">
 	<jsp:include page="/safecoms/include/header"></jsp:include>
+	<jsp:include page="/safecoms/include/left"></jsp:include>
 	<h1>중고몰 시작.</h1>
 </div>
 </body>

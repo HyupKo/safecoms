@@ -13,5 +13,10 @@ public class IncludeController {
 	public String header(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/include/header";
 	}
+	
+	@RequestMapping("/safecoms/include/left")
+	public String left(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/include/left";
+	}
 
 }
