@@ -13,12 +13,12 @@
 		<tbody valign="top">
 			<tr>
 				<th class="logId">ID</th>
-				<td><input type="text" class="logInput" name="userId"></td>
-				<td rowspan="2"><input type="button" class="loginBtn" title="로그인"></td>
+				<td><input type="text" class="logInput" name="userId" tabindex="1"></td>
+				<td rowspan="2"><input type="button" class="loginBtn" title="로그인" tabindex="3"></td>
 			</tr>
 			<tr>
 				<th class="logId">PW</th>
-				<td><input type="password" class="logInput" name="userPw"></td>
+				<td><input type="password" class="logInput" name="userPw" tabindex="2"></td>
 			</tr>
 		</tbody>
 		</table>
