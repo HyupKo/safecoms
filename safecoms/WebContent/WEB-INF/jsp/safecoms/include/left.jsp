@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <div class="snb">
-
 	<!-- 로그인 이전에 코드 -->
 	<div id="snb_before_login">
 		<img class="left_Img1" alt="Members Login" src="/images/main011.gif">
@@ -47,8 +46,9 @@
 		<ul class="snb_menus">
 			<li>공지사항</li>
 			<li>자유게시판</li>
-			<li>질문과 답변(QnA)</li>
-			<li>이용후기</li>
+			<li>질문과 답변(Q&amp;A)</li>
+			<li>자주묻는질문답변(FAQ)</li>
+			<li>세이프 컴스 이용후기</li>
 			<li>건의사항</li>
 			<li>불량사용자 신고</li>
 			<li>사기피해사례</li>
