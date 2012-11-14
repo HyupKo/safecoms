@@ -20,7 +20,7 @@
 .sub_login table {width: 150px; margin: 0px; padding: 0px}
 .left_Img1 {margin-bottom:10px}
 .logId {display: inline; font-size: 15px; font-weight: bold; font-family: "Dotum"}
-.logInput {background: url("/images/main010.gif") no-repeat; width: 70px; height:20px; border: 0px}
+.logInput {background: url("/images/main010.gif") no-repeat; width: 65px; height:14px; border: 0px}
 .loginBtn {background: url("/images/btn/main013.gif"); width: 62px;height: 39px}
 
 .snb_btns {margin-left: 5px}
