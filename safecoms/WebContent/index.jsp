@@ -12,7 +12,8 @@
 <div id="wrap">
 	<jsp:include page="/safecoms/include/header"></jsp:include>
 	<jsp:include page="/safecoms/include/left"></jsp:include>
-	<div style="width: 700px; float: left">
+	<jsp:include page="/safecoms/include/bottom"></jsp:include>
+	<div style="width: 760px; float: left">
 		<h1>중고몰 시작.</h1>
 		<h1>중고몰 시작.</h1>
 		<h1>중고몰 시작.</h1>
