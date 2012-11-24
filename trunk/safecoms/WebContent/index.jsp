@@ -12,7 +12,7 @@
 <div id="wrap">
 	<jsp:include page="/safecoms/include/header"></jsp:include>
 	<jsp:include page="/safecoms/include/left"></jsp:include>
-	<jsp:include page="/safecoms/include/bottom"></jsp:include>
+	
 	<div class="cont">
 		<h1>1¡ﬂ∞Ì∏Ù Ω√¿€.</h1>
 		<h1>2¡ﬂ∞Ì∏Ù Ω√¿€.</h1>
@@ -37,6 +37,7 @@
 		<h1>¡ﬂ∞Ì∏Ù Ω√¿€.</h1>
 		<h1>¡ﬂ∞Ì∏Ù Ω√¿€.</h1>
 	</div>
+	<jsp:include page="/safecoms/include/bottom"></jsp:include>
 </div>
 </body>
 </html>

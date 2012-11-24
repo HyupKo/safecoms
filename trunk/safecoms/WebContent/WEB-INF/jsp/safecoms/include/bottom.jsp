@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<div class="bnb">
+<div class="bottom">
 	<div class="bnb_main">
 		<ul class="bnb_btns">
 			<li><input type="button" class="bottom_btn1" title="회사소개"></li>
