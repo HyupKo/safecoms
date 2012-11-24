@@ -46,8 +46,8 @@
 .bottom_btn4 {background: url("/images/btn/main042.gif"); margin: 0px; padding: 0px; width: 100px; height: 16px; margin-top: 12px; border: 0px; cursor: pointer}
 .bottom_btn5 {background: url("/images/btn/main043.gif"); margin: 0px; padding: 0px; width: 59px; height: 16px; margin-top: 12px; border: 0px; cursor: pointer}
 .bottom_btn6 {background: url("/images/btn/main044.gif"); margin: 0px; padding: 0px; width: 71px; height: 16px; margin-top: 12px; border: 0px; cursor: pointer}
-.bnb_cont {margin-top:10px; vertical-align: middle}
+.bnb_cont {margin-top:10px; vertical-align: middle;}
 .bnb_cont img {float:left; margin-top:10px}
 .bnb_cont p {float:left; margin-left:20px }
 
-.cont {width: 760px; float: left}
+.cont {width: 760px; float: left; margin-top:10px; margin-bottom:10px;}
