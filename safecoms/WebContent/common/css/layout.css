@@ -27,7 +27,7 @@
 
 .snb_main {background: url("/images/leftbg.gif") no-repeat; padding: 16px 5px 15px 5px; margin: 5px 5px 5px 5px}
 .snb_btns {margin-left: 5px}
-.snb_btns li {list-style-type: none; margin-bottom: 5px; padding-bottom: 5px;background: url("/images/main018.gif") no-repeat left bottom;}
+.snb_btns li {list-style-type: none; margin-bottom: 5px; padding-bottom: 5px;background: url("/images/main018.gif") no-repeat left bottom}
 .left_btn1 {width: 125px; height: 18px}
 .left_btn2 {width: 129px; height: 18px}
 .left_btn3 {width: 82px; height: 18px}
@@ -36,10 +36,10 @@
 .snb_menus li {margin-bottom: 3px}
 .left_Img5 {margin: 2px 5px 5px 4px}
 
-.bnb {margin-left: 185px; width:765px; }
+.bottom {margin-left: 185px; width:765px; float: left}
 .bnb_main { height:40px; background: url("/images/main002.gif") repeat-x}
 .bnb_btns {margin-left:20px; vertical-align: middle}
-.bnb_btns li {display: inline; margin: 0 0 0 3px; padding:3px 40px 0 0;}
+.bnb_btns li {display: inline; margin: 0 0 0 3px; padding:3px 40px 0 0}
 .bottom_btn1 {background: url("/images/btn/main039.gif"); margin: 0px; padding: 0px; width: 61px; height: 16px; margin-top: 12px; border: 0px; cursor: pointer}
 .bottom_btn2 {background: url("/images/btn/main040.gif"); margin: 0px; padding: 0px; width: 59px; height: 16px; margin-top: 12px; border: 0px; cursor: pointer}
 .bottom_btn3 {background: url("/images/btn/main041.gif"); margin: 0px; padding: 0px; width: 114px; height: 16px; margin-top: 12px; border: 0px; cursor: pointer}
