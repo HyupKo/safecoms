@@ -42,22 +42,55 @@
 			<img class="main_CateTitle1" alt="카테고리" src="/images/main027.gif">
 			<img class="main_Cate1" alt="카테고리" src="/images/main028.gif">
 		</div>
-		
-		<br>
+
 		<img class="main_CateTitle2" alt="주목받는상품" src="/images/main029.gif">
 		텍스트보기/이미지보기
 		<img class="main_Cate2" alt="주목받는상품" src="/images/main030.gif">
-		<br>
+
 		<img class="main_CateTitle3" alt="오늘의신규상품" src="/images/main031.gif">
 		텍스트보기/이미지보기
 		<img class="main_Cate3" alt="오늘의신규상품" src="/images/main032.gif">
-		<br>
-		<img class="main_BoardTitle1" alt="직거래팝니다" src="/images/main033.gif">
-		<img class="main_BoardTitle2" alt="직거래삽니다" src="/images/main034.gif">
-		<img class="main_BoardTitle3" alt="세이프컴스 이용후기" src="/images/main037.gif">
-		<br>
-		<img class="main_BoardTitle4" alt="Q&A" src="/images/main035.gif">
-		<img class="main_BoardTitle5" alt="FAQ" src="/images/main036.gif">
+
+		<div class="content_notice">
+			<img class="main_BoardTitle1" alt="직거래팝니다" src="/images/main033.gif">
+			<ul>
+				<li>직거래 선택시 신용카드</li>
+				<li>수수료 할인 이벤트</li>
+				<li>2012년 4월 신용카드</li>
+			</ul>
+		</div>
+		<div class="content_notice">
+			<img class="main_BoardTitle2" alt="직거래삽니다" src="/images/main034.gif">
+			<ul>
+				<li>직거래 선택시 신용카드</li>
+				<li>수수료 할인 이벤트</li>
+				<li>2012년 4월 신용카드</li>
+			</ul>
+		</div>
+		<div class="content_notice">
+			<img class="main_BoardTitle3" alt="세이프컴스 이용후기" src="/images/main037.gif">
+			<ul>
+				<li>직거래 선택시 신용카드</li>
+				<li>수수료 할인 이벤트</li>
+				<li>2012년 4월 신용카드</li>
+			</ul>
+		</div>
+		<div class="content_notice">
+			<img class="main_BoardTitle4" alt="Q&A" src="/images/main035.gif">
+			<ul>
+				<li>직거래 선택시 신용카드</li>
+				<li>수수료 할인 이벤트</li>
+				<li>2012년 4월 신용카드</li>
+			</ul>
+		</div>
+		<div class="content_notice">
+			<img class="main_BoardTitle5" alt="FAQ" src="/images/main036.gif">
+			<ul>
+				<li>직거래 선택시 신용카드</li>
+				<li>수수료 할인 이벤트</li>
+				<li>2012년 4월 신용카드</li>
+			</ul>
+		</div>
 	</div>
 	
 </div>
