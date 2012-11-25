@@ -10,9 +10,6 @@
 </head>
 <body>
 <div id="wrap">
-	<jsp:include page="/safecoms/include/header"></jsp:include>
-	<jsp:include page="/safecoms/include/left"></jsp:include>
-	
 	<div class="cont">
 		<img class="main_Img1" alt="메인베너" src="/images/main022-banner.gif">
 		<img alt="공지사항" src="/images/main023.gif">
@@ -37,7 +34,7 @@
 		<img class="main_BoardTitle4" alt="Q&A" src="/images/main035.gif">
 		<img class="main_BoardTitle5" alt="FAQ" src="/images/main036.gif">
 	</div>
-	<jsp:include page="/safecoms/include/bottom"></jsp:include>
+	
 </div>
 </body>
 </html>
