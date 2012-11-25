@@ -5,16 +5,32 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<link type="text/css" rel="stylesheet" href="/common/css/import.css">
-<title>컴스클럽</title>
 </head>
 <body>
 <div id="wrap">
-	<div class="cont">
-		<img class="main_Img1" alt="메인베너" src="/images/main022-banner.gif">
-		<img alt="공지사항" src="/images/main023.gif">
-		<img alt="이벤트소식" src="/images/main024.gif">
-		<img alt="MORE" src="/images/main025.gif">
+	<div class="content">
+		<!-- 상단 배너 -->
+		<div>
+			<img class="main_Img1" alt="메인베너" src="/images/main022-banner.gif">
+			<img alt="공지사항" src="/images/main023.gif">
+			<img alt="이벤트소식" src="/images/main024.gif">
+			<img alt="MORE" src="/images/main025.gif">
+			<div>
+				<!-- 공지사항 -->
+				<ul>
+					<li>직거래 선택시 신용카드</li>
+					<li>수수료 할인 이벤트</li>
+					<li>2012년 4월 신용카드</li>
+				</ul>
+			</div>
+			<div>
+				<!-- 지시사항 -->
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		
 		<br>
 		<img class="main_CateTitle1" alt="카테고리" src="/images/main027.gif">
 		<img class="main_Cate1" alt="카테고리" src="/images/main028.gif">
