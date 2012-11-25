@@ -11,16 +11,16 @@ public class IncludeController {
 	
 	@RequestMapping("/safecoms/include/header")
 	public String header(HttpServletRequest request, HttpServletResponse response) {
-		return "/safecoms/include/header";
+		return "/safecoms/decorators/header";
 	}
 	
 	@RequestMapping("/safecoms/include/left")
 	public String left(HttpServletRequest request, HttpServletResponse response) {
-		return "/safecoms/include/left";
+		return "/safecoms/decorators/left";
 	}
 	
 	@RequestMapping("/safecoms/include/bottom")
 	public String bottom(HttpServletRequest request, HttpServletResponse response) {
-		return "/safecoms/include/bottom";
+		return "/safecoms/decorators/bottom";
 	}
 }
