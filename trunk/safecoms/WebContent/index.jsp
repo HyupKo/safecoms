@@ -9,31 +9,40 @@
 <body>
 <div id="wrap">
 	<div class="content">
-		<!-- 상단 배너 -->
-		<div>
-			<img class="main_Img1" alt="메인베너" src="/images/main022-banner.gif">
-			<img alt="공지사항" src="/images/main023.gif">
-			<img alt="이벤트소식" src="/images/main024.gif">
-			<img alt="MORE" src="/images/main025.gif">
-			<div>
-				<!-- 공지사항 -->
+		<div class="banner">
+			<!-- 상단 배너 -->
+			<div class="content_banner">
+				<img class="main_Img1" alt="메인베너" src="/images/main022-banner.gif">
+			</div>
+			
+			<!-- 공지, 이벤트 -->
+			<div class="content_event">
+				<img alt="공지사항" src="/images/main023.gif">
+				<img alt="이벤트소식" src="/images/main024.gif">
+				<img alt="MORE" src="/images/main025.gif" style="float: right;padding-top: 5px">
+			</div>
+			
+			<!-- 공지사항 -->
+			<div class="content_notice">
 				<ul>
 					<li>직거래 선택시 신용카드</li>
 					<li>수수료 할인 이벤트</li>
 					<li>2012년 4월 신용카드</li>
 				</ul>
 			</div>
+			<!-- 지시사항 -->
 			<div>
-				<!-- 지시사항 -->
 				<ul>
 					<li></li>
 				</ul>
 			</div>
 		</div>
 		
-		<br>
-		<img class="main_CateTitle1" alt="카테고리" src="/images/main027.gif">
-		<img class="main_Cate1" alt="카테고리" src="/images/main028.gif">
+		<div>
+			<img class="main_CateTitle1" alt="카테고리" src="/images/main027.gif">
+			<img class="main_Cate1" alt="카테고리" src="/images/main028.gif">
+		</div>
+		
 		<br>
 		<img class="main_CateTitle2" alt="주목받는상품" src="/images/main029.gif">
 		텍스트보기/이미지보기
