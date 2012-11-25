@@ -23,7 +23,7 @@
 		</tbody>
 		</table>
 		<div class="mL8">
-			<img class="left_Img3" alt="회원가입" src="/images/btn/main014.gif">
+			<img class="left_Img3" alt="회원가입" src="/images/btn/main014.gif" onclick="location.href='/safecoms/join/joinAgree'">
 			<img class="left_Img4" alt="ID/PW찾기" src="/images/btn/main015.gif">
 		</div>
 		<div class="mL15">
