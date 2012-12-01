@@ -9,72 +9,124 @@
 <body>
 <div id="wrap">
 	<div class="content">
-		<img class="join_Agree1" alt="회원가입" src="/images/join001.gif">
-		<img class="join_Agree2" alt="회원가입" src="/images/join002.gif">
-		<img class="join_Agree3" alt="회원약관" src="/images/join003.gif">
-		<div>
-			<textarea style="width:716px; height:150px;">약관1</textarea>
-			<br>
-			<input type="radio" class="joinAgreeRadio1" alt="동의함"> 동의함
-			<input type="radio" class="joinAgreeRadio2" alt="동의안함"> 동의안함
-		</div>
-		<img class="join_Agree4" alt="개인정보수집" src="/images/join004.gif">
-		<div>
-			<textarea style="width:716px; height:150px;">약관2</textarea>
-			<br>
-			<input type="radio" class="joinAgreeRadio1" alt="동의함"> 동의함
-			<input type="radio" class="joinAgreeRadio2" alt="동의안함"> 동의안함
-		</div>
-		<img class="join_Agree5" alt="실명확인" src="/images/join005.gif">
+		<img class="join_Form1" alt="회원가입" src="/images/join001.gif">
+		<img class="join_Form2" alt="Step2" src="/images/join033.gif">
+		<img class="join_Agree3" alt="정보입력" src="/images/join034.gif">
 		<div>
 			<table>
 				<colgroup>
-					<col width="60px">
-					<col width="10px">
 					<col width="200px">
 					<col width="10px">
-					<col width="60px">
+					<col width="500px">
 				</colgroup>
 				<tbody>
 					<tr>
 						<td>
-							<img class="join_Agree6" alt="고객명" src="/images/join006_1.gif">
+							이름
 						</td>
 						<td></td>
 						<td>
-							<input type="text" style="width:100%">
-						</td>
-						<td></td>
-						<td rowspan=2>
-							<img class="join_Agree6" alt="실명확인" src="/images/btn/join013.gif">
+							test
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<img class="join_Agree6" alt="주민등록번호" src="/images/join006_3.gif">
+							아이디
 						</td>
 						<td></td>
 						<td>
-							<input type="text" style="width:43%"> - <input type="text" style="width:44%">
+							<input type="text" size=30> 
+							<img class="join_Form4" alt="중복확인" src="/images/btn/join038.gif">
 						</td>
-						<td></td>
-						<td></td>
 					</tr>
 					<tr>
-						<td colspan=5>
-							블라블라
+						<td>
+							비밀번호
+						</td>
+						<td></td>
+						<td>
+							<input type="text" size=30> 
+						</td>
+					</tr>
+					<tr>
+						<td>
+							비밀번호 확인
+						</td>
+						<td></td>
+						<td>
+							<input type="text" size=30> 
+						</td>
+					</tr>
+					<tr>
+						<td>
+							휴대폰 확인
+						</td>
+						<td></td>
+						<td>
+							<input type="text" size=30>
+							<img class="join_Form4" alt="인증번호받기" src="/images/btn/join039.gif">
+							<input type="checkbox"> SMS수신동의
+						</td>
+					</tr>
+					<tr>
+						<td>
+							주소
+						</td>
+						<td></td>
+						<td>
+							<input type="text" size=3> - <input type="text" size=3>
+							<img class="join_Form4" alt="주소찾기" src="/images/btn/join044.gif">
+							<br>
+							<input type="text" size=30>
+							<br>
+							<input type="text" size=30>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							이메일 주소
+						</td>
+						<td></td>
+						<td>
+							<input type="text" size=20> @ <input type="text" size=20> 
+							<select class="mail_Input1">
+								<option value="">직접입력</option>
+							</select>
+							<input type="checkbox"> 이메일수신동의
+						</td>
+					</tr>
+					<tr>
+						<td>
+							회원사진
+						</td>
+						<td></td>
+						<td>
+							<img class="join_Form4" alt="no Image" src="/images/btn/join040.gif">
+							<img class="join_Form4" alt="대표이미지 찾기" src="/images/btn/join041.gif">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							대금결제계좌
+						</td>
+						<td></td>
+						<td>
+							<select>
+								<option value="">은행선택</option>
+							</select>
+							<input type="text" size=40> ('-'는 제외)
+							<p>
+								* 대금 지급을 위한 고객님의 계좌정보를 입력하여주세요.<br>
+								* 고객님의 성명과 예금주명이 동일하지 않을 경우 대금이 입금되지 않습니다.								
+							</p>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div>
-				<input type="checkbox">
-				<img class="join_Agree7" alt="약관 확인 및 실명확인 동의" src="/images/join030.gif">
-			</div>
-			<div>
-				<img class="join_Agree8" alt="다음" src="/images/btn/join031.gif">
-				<img class="join_Agree9" alt="취소" src="/images/btn/join032.gif">
-			</div>
+		</div>
+		<div>
+			<img class="join_Form8" alt="확인" src="/images/btn/join046.gif" onclick="location.href='/safecoms/join/joinOk'">
+			<img class="join_Form9" alt="취소" src="/images/btn/join047.gif">
 		</div>
 	</div>
 </div>
