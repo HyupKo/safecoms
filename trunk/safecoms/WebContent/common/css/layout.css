@@ -74,7 +74,7 @@
 .noti_board p {margin-bottom: 10px}
 
 .board_ul {margin-left: 25px}
-.board_ul li {list-style: circle; padding-left: -30px; margin: 5px 10px 0 0}
+.board_ul li {list-style: url(’/images/out_board_dot.gif’); padding-left: -30px; margin: 5px 10px 0 0}
 
 .terms {width: 710px; height: 150px}
 .joinAgreeRadio {border: 0px}

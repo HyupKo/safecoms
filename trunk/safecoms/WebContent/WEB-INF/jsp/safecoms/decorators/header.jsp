@@ -10,7 +10,7 @@
 	</div>
 	<br>
 	<div class="gnb_main">
-		<img class="mainImg" alt="세이프 컴스" src="/images/main003.gif">
+		<img class="mainImg" alt="세이프 컴스" src="/images/main003.gif" onclick="location.href='/safecoms/index'">
 		
 		<select class="selheader mL10" name="selProdSearch">
 			<option value="">상품검색</option>
