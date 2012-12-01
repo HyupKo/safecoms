@@ -21,5 +21,10 @@ public class JoinController {
 	public String joinForm(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/join/joinForm";
 	}
+	
+	@RequestMapping(value="/safecoms/join/joinOk")
+	public String joinOk(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/join/joinOk";
+	}
 
 }
