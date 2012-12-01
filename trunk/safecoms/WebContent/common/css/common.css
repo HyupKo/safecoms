@@ -17,9 +17,11 @@
 .mL10{margin-left: 10px}
 .mL15{margin-left: 15px}
 
-.mR20{margin-left: 20px}
+.mR20{margin-right: 20px}
+.mR45{margin-right: 45px}
 
 .mT3{margin-top: 3px}
+.mT10{margin-top: 10px}
 
 .pR10{padding-right:10px}
 .pR20{padding-right:20px}
@@ -44,3 +46,4 @@
 
 .floatR{float:right}
 .floatL{float:left}
+

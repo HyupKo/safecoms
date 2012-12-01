@@ -76,3 +76,9 @@
 .board_ul {margin-left: 25px}
 .board_ul li {list-style: circle; padding-left: -30px; margin: 5px 10px 0 0}
 
+.terms {width: 710px; height: 150px}
+.joinAgreeRadio {border: 0px}
+
+.certify_person {float:left; border: 1px solid silver;width:350px; height:105px; background-color: rgb(250, 250, 250); margin: 10px 0 15px 0}
+.join_table1 {padding: 10px; margin: 12px 10px 10px 10px}
+.join_table1 tr {height: 12px}
