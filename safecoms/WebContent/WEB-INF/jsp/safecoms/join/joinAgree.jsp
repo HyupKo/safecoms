@@ -15,8 +15,8 @@
 			<p><textarea class="terms" readonly="readonly">약관1</textarea></p>
 			
 			<p class="floatR mR45 mT3">
-				<input type="radio" class="joinAgreeRadio" alt="동의함"> 동의함
-				<input type="radio" class="joinAgreeRadio" alt="동의안함"> 동의안함
+				<input type="radio" name="terms" class="joinAgreeRadio" alt="동의함"> 동의함
+				<input type="radio" name="terms" class="joinAgreeRadio" alt="동의안함"> 동의안함
 			</p>
 		</div>
 		<img class="join_Agree4" alt="개인정보수집" src="/images/join004.gif">
@@ -24,8 +24,8 @@
 			<p><textarea class="terms" readonly="readonly">약관2</textarea></p>
 			
 			<p class="floatR mR45 mT3">
-				<input type="radio" class="joinAgreeRadio" alt="동의함"> 동의함
-				<input type="radio" class="joinAgreeRadio" alt="동의안함"> 동의안함
+				<input type="radio" name="personInfo" class="joinAgreeRadio" alt="동의함"> 동의함
+				<input type="radio" name="personInfo" class="joinAgreeRadio" alt="동의안함"> 동의안함
 			</p>
 		</div>
 		<img class="join_Agree5" alt="실명확인" src="/images/join005.gif">
