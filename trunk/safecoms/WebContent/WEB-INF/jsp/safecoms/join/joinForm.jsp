@@ -72,7 +72,7 @@
 				<img class="join_Agree7" alt="약관 확인 및 실명확인 동의" src="/images/join030.gif">
 			</div>
 			<div>
-				<img class="join_Agree8" alt="다음" src="/images/btn/join031.gif" onclick="location.href='/safecoms/join/joinForm'">
+				<img class="join_Agree8" alt="다음" src="/images/btn/join031.gif">
 				<img class="join_Agree9" alt="취소" src="/images/btn/join032.gif">
 			</div>
 		</div>
