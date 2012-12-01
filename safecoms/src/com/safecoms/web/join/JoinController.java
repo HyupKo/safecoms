@@ -13,8 +13,13 @@ public class JoinController {
 	//@Autowired private JoinService joinService;
 	
 	@RequestMapping(value="/safecoms/join/joinAgree")
-	public String join(HttpServletRequest request, HttpServletResponse response) {
+	public String joinAgree(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/join/joinAgree";
+	}
+	
+	@RequestMapping(value="/safecoms/join/joinForm")
+	public String joinForm(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/join/joinForm";
 	}
 
 }
