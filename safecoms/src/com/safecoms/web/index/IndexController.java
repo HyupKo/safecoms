@@ -16,7 +16,6 @@ public class IndexController {
 	@RequestMapping(value="/safecoms/index", method=RequestMethod.GET)
 	public String index(HttpServletRequest request, HttpServletResponse response) {
 		// System.out.println(indexService.testDbConnection());
-		System.out.println("333333");
 		return "/safecoms/index/index";
 	}
 
