@@ -26,7 +26,7 @@
 				<div class="content_notice">
 					<ul class="noti_ul">
 						<li><a onclick="location.href='/safecoms/product/productView'">상품view테스트</a></li>
-						<li>수수료 할인 이벤트</li>
+						<li><a onclick="location.href='/safecoms/product/productList'">상품List테스트</a></li>
 						<li>2012년 4월 신용카드</li>
 					</ul>
 				</div>
