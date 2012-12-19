@@ -33,7 +33,7 @@
 									<tr>
 										<td>상 품 명 : <strong>ASUS 지포스 GTX680 ENGT680 D5 2GB</strong></td>
 										<td>판매자 : <strong>ASUS</strong></td>
-										<td>판매자등급 : <strong>골드</strong><img class="" alt="골드등급" src="/images/user_grade_gold.gif"></td>
+										<td>판매자등급 : <strong>골드</strong><img class="" alt="골드등급" src="/images/grade_gold.gif"></td>
 									</tr>
 								</tbody>
 							</table>
@@ -100,7 +100,7 @@
 							판매자ID : ASUS<br>
 							이름 : 아서스<br>
 							가입일 : 2012년 4월 25일<br>
-							판매자등급 : 골드등급 <img class="" alt="골드등급" src="/images/user_grade_gold.gif">
+							판매자등급 : 골드등급 <img class="" alt="골드등급" src="/images/grade_gold.gif">
 						</td>
 					</tr>
 					<tr>
@@ -115,7 +115,7 @@
 									<tr>
 										<td>신용카드로 구매</td>
 										<td>\ 676,000원</td>
-										<td rowspan=5><img class="" alt="세이프컴스구매" src="/images/btn/btn_safecoms_order.gif"></td>
+										<td rowspan=5><img class="" alt="세이프컴스구매" src="/images/btn/btn_safecoms_order.gif" onclick="location.href='/safecoms/product/productSafeBuy'"></td>
 									</tr>
 									<tr>
 										<td>실시간 계좌이체로 구매</td>
@@ -151,13 +151,13 @@
 		</div>
 		
 		<div class="floatL">
-			ID : sdlink(국승욱) 등급 <img class="" alt="골드등급" src="/images/user_grade_gold.gif"> 2012-08-22 15:30:20  답글 수정 삭제
+			ID : sdlink(국승욱) 등급 <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20  답글 수정 삭제
 			<br>
 			댓글 내용
 		</div>
 		
 		<div class="floatL">
-			ID : sdlink(국승욱) 등급 <img class="" alt="골드등급" src="/images/user_grade_gold.gif"> 2012-08-22 15:30:20  답글 수정 삭제
+			ID : sdlink(국승욱) 등급 <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20  답글 수정 삭제
 			<br>
 			댓글 내용
 		</div>
