@@ -39,8 +39,8 @@
 	<!-- 로그인 아래 부분 -->
 	<div class="snb_main">
 		<ul class="snb_btns">
-			<li><img class="left_btn1" title="판매상품등록" src="/images/btn/main017.gif"></li>
-			<li><img class="left_btn2" title="전체판매상품목록" src="/images/btn/main019.gif"></li>
+			<li><a onclick="location.href='/safecoms/product/productEntry'"><img class="left_btn1" title="판매상품등록" src="/images/btn/main017.gif"></a></li>
+			<li><a  onclick="location.href='/safecoms/product/productList'"><img class="left_btn2" title="전체판매상품목록" src="/images/btn/main019.gif"></a></li>
 			<li><img class="left_btn3" title="장터게시판" src="/images/btn/main020.gif"></li>
 		</ul>
 		<ul class="snb_menus">
