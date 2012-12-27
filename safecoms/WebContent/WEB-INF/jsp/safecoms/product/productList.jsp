@@ -10,84 +10,33 @@
 <div id="wrap">
 	<div class="content">
 		<p class="mL5">▶ 상품 목록</p>
-		<div>
-			<table style="background:grey;">
-				<colgroup>
-					<col width="700px">
-				</colgroup>
-				<tbody>
-					<tr>
-						<td>
-							<table>
-								<tbody>
-									<tr>
-										<td>
-											카테고리
-										</td>
-										<td>
-											<select>
-												<option value="">대분류</option>
-											</select>
-										</td>
-										<td>
-											<select>
-												<option value="">중분류</option>
-											</select>
-										</td>
-										<td>
-											<select>
-												<option value="">소분류</option>
-											</select>
-										</td>
-										<td>
-											<select>
-												<option value="">세부분류</option>
-											</select>
-										</td>
-										<td>
-											<img class="" alt="검색초기화" src="/images/btn/btn_search_init.gif">
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<table>
-								<tbody>
-									<tr>
-										<td>
-											가격대검색
-										</td>
-										<td>
-											<input type="text" size="10">
-										</td>
-										<td>
-											~
-										</td>
-										<td>
-											<input type="text" size="10">
-										</td>
-										<td>
-											상품명
-										</td>
-										<td>
-											<input type="text" size="30">
-										</td>
-										<td>
-											<img class="" alt="검색초기화" src="/images/btn/btn_search_open.gif">
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="prod_search">
+			<div>
+				카테고리
+				<select>
+					<option value="">대분류</option>
+				</select>
+				<select>
+					<option value="">중분류</option>
+				</select>
+				<select>
+					<option value="">소분류</option>
+				</select>
+				<select>
+					<option value="">상세분류</option>
+				</select>
+			</div>
+			<img class="" alt="검색초기화" src="/images/btn/btn_search_init.gif">
+			<div>
+				가격대검색
+				<input type="text" name="" value="" class="price">~<input type="text" name="" value="" class="price">
+				<span>상품명</span>
+				<input type="text" size="30" class="prod_nm">
+			</div>
+			<img class="" alt="검색" src="/images/btn/btn_search_open.gif">
 		</div>
 		
-		<div>
+		<div class="search_options">
 			등록순 판매자랭킹 낮은가격순 높은가격순
 			<select>
 				<option value="">전체보기</option>
@@ -97,44 +46,35 @@
 			</select>
 		</div>
 
-		<div>
-			<table border=1>
+		<div class="prod_list">
+			<table>
 				<colgroup>
 					<col width="50px">
-					<col width="300px">
+					<col width="270px">
 					<col width="80px">
-					<col width="70px">
-					<col width="100px">
-					<col width="100px">
+					<col width="60px">
+					<col width="110px">
+					<col width="90px">
 					<col width="50px">
 				</colgroup>
-				<tbody>
+				<thead>
 					<tr>
-						<td colspan=2>
-							상품명
-						</td>
-						<td>
-							판매가격
-						</td>
-						<td>
-							카드결제
-						</td>
-						<td>
-							택배(예상금액)
-						</td>
-						<td>
-							판매자등급
-						</td>
-						<td>
-							조회수
-						</td>
+						<th></th>
+						<th>상품명</th>
+						<th>판매가격</th>
+						<th>카드결제</th>
+						<th>택배(예상금액)</th>
+						<th>판매자등급</th>
+						<th>조회수</th>
 					</tr>
+				</thead>
+				<tbody align="center">
 					<!-- 리스트 시작 -->
-					<tr onclick="location.href='/safecoms/product/productView'" style="cursor:hand">
+					<tr onclick="location.href='/safecoms/product/productView'" style="cursor:pointer">
 						<td>
 							<img class="" alt="상품이미지" src="/images/product001_pic.gif" width=50 height=50>
 						</td>
-						<td>
+						<td align="left" class="pL5">
 							<img class="" alt="중고" src="/images/state_3.gif">
 							FSP 600-80APN 팔아요 
 							<img class="" alt="판매완료" src="/images/step_0.gif">
@@ -149,18 +89,18 @@
 							착불(4,000원)
 						</td>
 						<td>
-							crossfire<img class="" alt="판매완료" src="/images/grade_new.gif">
+							crossfire<img class="" alt="새싹" src="/images/grade_new.gif">
 						</td>
 						<td>
 							15
 						</td>
 					</tr>
 					<!-- 리스트 끝 -->
-					<tr onclick="location.href='/safecoms/product/productView'" style="cursor:hand">
+					<tr onclick="location.href='/safecoms/product/productView'" style="cursor:pointer">
 						<td>
 							<img class="" alt="상품이미지" src="/images/product001_pic.gif" width=50 height=50>
 						</td>
-						<td>
+						<td align="left" class="pL5">
 							<img class="" alt="중고" src="/images/state_1.gif">
 							FSP 600-80APN 팔아요 
 							<img class="" alt="판매완료" src="/images/step_0.gif">
@@ -175,7 +115,7 @@
 							착불(4,000원)
 						</td>
 						<td>
-							aaaa<img class="" alt="판매완료" src="/images/grade_gold.gif">
+							aaaa<img class="" alt="골든" src="/images/grade_gold.gif">
 						</td>
 						<td>
 							15
@@ -185,8 +125,21 @@
 			</table>
 		</div>
 		
-		<div>
-			< 1 2 3 4 5 6 7 8 9 10 >
+		<div class="paging">
+			<center>
+				<a onclick="void(0);">&lt;</a>
+				<a onclick="void(0);">1</a>
+				<a onclick="void(0);">2</a>
+				<a onclick="void(0);">3</a>
+				<a onclick="void(0);">4</a>
+				<a onclick="void(0);">5</a>
+				<a onclick="void(0);">6</a>
+				<a onclick="void(0);">7</a>
+				<a onclick="void(0);">8</a>
+				<a onclick="void(0);">9</a>
+				<a onclick="void(0);">10</a>
+				<a onclick="void(0);">&gt;</a>
+			</center>
 		</div>
 	</div>
 </div>
