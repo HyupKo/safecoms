@@ -154,7 +154,7 @@
 								<strong><input type="radio" class="noBorder"> 신용카드로 구매</strong>
 							</td>
 							<td>
-								<strong>\ 800,000원</strong>
+								<strong>&#8361; 800,000원</strong>
 							</td>
 						</tr>
 						<tr>
@@ -162,7 +162,7 @@
 								<strong><input type="radio" class="noBorder"> 실시간 계좌이체로 구매</strong>
 							</td>
 							<td>
-								<strong>\ 800,000원</strong>
+								<strong>&#8361; 800,000원</strong>
 							</td>
 						</tr>
 						<tr>
@@ -170,7 +170,7 @@
 								<strong><input type="radio" class="noBorder"> 무통장 입금으로 구매</strong>
 							</td>
 							<td>
-								<strong>\ 800,000원</strong>
+								<strong>&#8361; 800,000원</strong>
 							</td>
 						</tr>
 						<tr>
@@ -178,7 +178,7 @@
 								<strong><input type="radio" class="noBorder"> 적립금으로 구매</strong>
 							</td>
 							<td>
-								<strong>\ 800,000원</strong>
+								<strong>&#8361; 800,000원</strong>
 							</td>
 						</tr>
 					</tbody>
@@ -197,7 +197,7 @@
 								<strong>결제금액  :</strong>
 							</td>
 							<td>
-								<strong>\ 800,000원</strong>
+								<strong>&#8361; 800,000원</strong>
 								<span class="mL150">
 									<img class="" alt="구매하기" src="/images/btn/join046.gif">
 									<img class="" alt="취소" src="/images/btn/join046.gif">
