@@ -8,169 +8,208 @@
 </head>
 <body>
 <div id="wrap">
+	<form action="">
 	<div class="content">
-		<p class="mL5">▶ 상품 목록</p>
-		<div style="background:grey;">
-			>세이프컴스는 불확실한 상품의 거래는 엄격히 제한합니다. 상품은 개별 판매자가 등록한 것으로,<br>
-			 세이프컴스는 중계시스템을 제공하여, 등록자료와 거래에 관한 일체에 책임을 지지 않습니다.<br><br>
-			>한번 등록한 상품은 수정이 불가능하며, 내용추가만 가능하오니 신중하게 등록하여주시기 바랍니다.<br>
-			>허위 매물 또는 문제의 소지가 있는 내용의 판매 글은 관리자에 의해 제재 조치가 가해질 수 있습니다.
-		</div>
-		<div class="prod_main">
-			주문자 정보
-			<table>
-				<colgroup>
-					<col width="150px">
-					<col width="550px">
-				</colgroup>
-				<tbody>
-					<tr>
-						<td>
-							> 이름
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							> 연락처
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							> 이메일
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							> 주소
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div class="prod_main">
-			상품 수렁자 정보 <input type="radio"> 주문자 동일 <input type="radio"> 새로입력
-			<table>
-				<colgroup>
-					<col width="150px">
-					<col width="550px">
-				</colgroup>
-				<tbody>
-					<tr>
-						<td>
-							> 이름
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							> 연락처
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							> 이메일
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							> 주소
-						</td>
-						<td>
-							<input type="text" size=30>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							> 배송요청사항
-						</td>
-						<td>
-							<input type="text" size=50><br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div class="prod_main">
-			결제방식
-			<table>
-				<colgroup>
-					<col width="150px">
-					<col width="550px">
-				</colgroup>
-				<tbody>
-					<tr>
-						<td>
-							> 수량
-						</td>
-						<td>
-							<input type="text" size=10>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="radio"> 신용카드로 구매
-						</td>
-						<td>
-							\ 800,000원
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="radio"> 실시간 계좌이체로 구매
-						</td>
-						<td>
-							\ 800,000원
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="radio"> 무통장 입금으로 구매
-						</td>
-						<td>
-							\ 800,000원
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="radio"> 적립금으로 구매
-						</td>
-						<td>
-							\ 800,000원
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<br>
-		<div>
-			결제금액 : \ 800,000원
-		</div>
+		<p class="mL5">▶ 구매 전 꼭 확인하세요 !</p>
 		
-		<div>
-			<img class="" alt="구매하기" src="/images/btn/join046.gif">
-			<img class="" alt="취소" src="/images/btn/join046.gif">
+		<div class="prod_buy_header">
+			<p><strong>세이프컴스</strong>에 등록된 상품의 정보는 판매자가 직접 등록한 것으로 <strong>세이프컴스</strong>는 중개만 제공하여 드립니다.</p>
+			<p><span class="red">판매 상품에 대한 일체의 책임을 지지 않습니다.</span> 구매전 상품에 대한 확인을 꼭 하시고 결정하여 주세요.</p>
+			<p><span class="blue">상품에 대한 주문, 배송, 교환, 환불의 책임은 해당 판매자에게 있습니다.</span></p>
+		</div>
+			
+		<div class="prod_buy">	
+			<div class="prod_buy_form">
+				<p class="title"><strong>주문자 정보</strong></p>
+				<table>
+					<colgroup>
+						<col width="15%">
+						<col width="85%">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 이름</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input150">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 연락처</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input150">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> E-MAIL</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input150">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 주소</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input100"><a onclick="void(0);">[우편번호]</a><input type="text" name="" value="" class="input250">
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="text" name="" value="" class="input350">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="prod_buy_form">
+				<p class="title"><strong>상품 수렁자 정보</strong><span class="mL30"><input type="radio" class="mB5"> 주문자 동일 <input type="radio" class="mB5"> 새로입력</span></p>
+				<table>
+					<colgroup>
+						<col width="15%">
+						<col width="85%">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 이름</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input150">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 연락처</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input150">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> E-MAIL</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input150">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 주소</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input100"><a onclick="void(0);">[우편번호]</a><input type="text" name="" value="" class="input250">
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="text" name="" value="" class="input350">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 배송요청사항</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input450">
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<span class="blue">예) 부재시 연락주세요. 전화 연락 후 배송 요망 등..</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="prod_buy_form">
+				<p class="title"><strong>결제방식</strong></p>
+				<table>
+					<colgroup>
+						<col width="30%">
+						<col width="70%">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>
+								<strong><span class="blue">&gt;</span> 수량</strong>
+							</td>
+							<td>
+								<input type="text" name="" value="" class="input100">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><input type="radio"> 신용카드로 구매</strong>
+							</td>
+							<td>
+								<strong>\ 800,000원</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><input type="radio"> 실시간 계좌이체로 구매</strong>
+							</td>
+							<td>
+								<strong>\ 800,000원</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><input type="radio"> 무통장 입금으로 구매</strong>
+							</td>
+							<td>
+								<strong>\ 800,000원</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong><input type="radio"> 적립금으로 구매</strong>
+							</td>
+							<td>
+								<strong>\ 800,000원</strong>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="prod_buy_form_result">
+				<table>
+					<colgroup>
+						<col width="30%">
+						<col width="70%">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td class="floatR mT10 mR5">
+								<strong>결제금액  :</strong>
+							</td>
+							<td>
+								<strong>\ 800,000원</strong>
+								<span class="mL150">
+									<img class="" alt="구매하기" src="/images/btn/join046.gif">
+									<img class="" alt="취소" src="/images/btn/join046.gif">
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
+	</form>
 </div>
 </body>
 </html>
