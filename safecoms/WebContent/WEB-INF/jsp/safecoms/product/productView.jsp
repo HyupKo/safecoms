@@ -140,29 +140,66 @@
 			</table>
 		</div>
 		
-		<div class="floatL">
-			세이프컴스는 해당 제품에 대한 정확성에 대한 보장을 하지 않습니다.<br>
-			구체적인 기능과 사양은 구매전 꼼꼼히 확인하시기 바랍니다.<br>
-			※판매자 연락처는 구매자에게만 공개됩니다.
+		<div class="floatL prod_view_noti">
+			<p>
+				세이프컴스는 해당 제품에 대한 정확성에 대한 보장을 하지 않습니다.<br>
+				구체적인 기능과 사양은 구매전 꼼꼼히 확인하시기 바랍니다.<br>
+				※판매자 연락처는 구매자에게만 공개됩니다.
+			</p>
 		</div>
 		
-		<div class="floatL">
+		<div class="floatL prod_view_detail">
 			상품내용 ...
 		</div>
 		
-		<div class="floatL">
-			ID : sdlink(국승욱) 등급 <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20  답글 수정 삭제
-			<br>
-			댓글 내용
+		<div class="floatL prod_comment_list">
+			<ul>
+				<li class="comment_list">
+					<div class="comment_header">
+						<span class="comment_user">ID : <strong>sdlink</strong>(국승욱) &nbsp;등급: <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20</span>
+						<span class="comment_modify">
+							<a onclick="#">답글</a>
+							<a onclick="#">수정</a>
+							<a onclick="#">삭제</a>
+						</span>
+					</div>
+					<p class="comments">
+						댓글 내용
+					</p>
+				</li>
+				<li class="comment_list">
+					<div class="comment_header">
+						<span class="comment_user">ID : <strong>sdlink</strong>(국승욱) &nbsp;등급: <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20</span>
+						<span class="comment_modify">
+							<a onclick="#">답글</a>
+							<a onclick="#">수정</a>
+							<a onclick="#">삭제</a>
+						</span>
+					</div>
+					<p class="comments">
+						댓글 내용
+					</p>
+				</li>
+				<li class="comment_list">
+					<div class="comment_header">
+						<span class="comment_user">ID : <strong>sdlink</strong>(국승욱) &nbsp;등급: <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20</span>
+						<span class="comment_modify">
+							<a onclick="#">답글</a>
+							<a onclick="#">수정</a>
+							<a onclick="#">삭제</a>
+						</span>
+					</div>
+					<p class="comments">
+						댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용
+						댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용
+						댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용
+						댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용댓글 내용
+					</p>
+				</li>
+			</ul>
 		</div>
 		
-		<div class="floatL">
-			ID : sdlink(국승욱) 등급 <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20  답글 수정 삭제
-			<br>
-			댓글 내용
-		</div>
-		
-		<div class="floatL">
+		<div class="floatL comments_enter">
 			<table>
 				<colgroup>
 					<col width="700px">
