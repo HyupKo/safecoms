@@ -128,8 +128,8 @@
 /* 상품 리스트 끝. */
 
 /* 상품 구매 페이지 시작. */
-.prod_buy_header {background-color: #F0F0F0; padding: 10px 0 10px 15px; width: 710px; margin-left: 5px}
-.prod_buy {background-color: #F5F9F5; width: 730px}
+.prod_buy_header {background-color: #F0F0F0; padding: 10px 0 10px 15px; width: 710px; margin: 5px 5px 10px 5px}
+.prod_buy {background-color: #F5F9F5; width: 730px; padding-bottom: 5px}
 .prod_buy_form {border-top: 2px green solid; margin: 15px 0; width: 730px}
 .prod_buy_form table {width: 710px; margin: 10px 30px}
 .prod_buy_form .title {border-bottom: 1px green solid; padding: 10px 0 10px 15px}

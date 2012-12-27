@@ -70,7 +70,7 @@
 			</div>
 			
 			<div class="prod_buy_form">
-				<p class="title"><strong>상품 수렁자 정보</strong><span class="mL30"><input type="radio" class="mB5"> 주문자 동일 <input type="radio" class="mB5"> 새로입력</span></p>
+				<p class="title"><strong>상품 수렁자 정보</strong><span class="mL30"><input type="radio" class="mB5 noBorder"> 주문자 동일 <input type="radio" class="mB5 noBorder"> 새로입력</span></p>
 				<table>
 					<colgroup>
 						<col width="15%">
@@ -151,7 +151,7 @@
 						</tr>
 						<tr>
 							<td>
-								<strong><input type="radio"> 신용카드로 구매</strong>
+								<strong><input type="radio" class="noBorder"> 신용카드로 구매</strong>
 							</td>
 							<td>
 								<strong>\ 800,000원</strong>
@@ -159,7 +159,7 @@
 						</tr>
 						<tr>
 							<td>
-								<strong><input type="radio"> 실시간 계좌이체로 구매</strong>
+								<strong><input type="radio" class="noBorder"> 실시간 계좌이체로 구매</strong>
 							</td>
 							<td>
 								<strong>\ 800,000원</strong>
@@ -167,7 +167,7 @@
 						</tr>
 						<tr>
 							<td>
-								<strong><input type="radio"> 무통장 입금으로 구매</strong>
+								<strong><input type="radio" class="noBorder"> 무통장 입금으로 구매</strong>
 							</td>
 							<td>
 								<strong>\ 800,000원</strong>
@@ -175,7 +175,7 @@
 						</tr>
 						<tr>
 							<td>
-								<strong><input type="radio"> 적립금으로 구매</strong>
+								<strong><input type="radio" class="noBorder"> 적립금으로 구매</strong>
 							</td>
 							<td>
 								<strong>\ 800,000원</strong>
