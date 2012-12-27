@@ -91,3 +91,23 @@
 .prod_table .b_t_l{border-top: 1px green solid; border-left: 1px green solid}
 .prod_table .right_border {border-right: 1px green solid}
 .prod_title {padding: 0 20px 0 15px; height: 35px}
+
+.prod_search {width:710px; height: 65px; border: 1px silver solid; background-color: #F4F4F4; float: left; margin: 5px 5px 10px 5px}
+.prod_search div {margin: 9px 10px 0px 10px; float: left}
+.prod_search text {margin: 0px; padding: 0px}
+.prod_search select {width: 130px; margin-left: 6px}
+.prod_search img {margin-right: 15px; float: right; padding-top: 6px}
+.prod_search .price {width: 100px}
+.prod_search span {margin-left: 18px}
+.prod_search .prod_nm {width: 255px}
+
+.search_options {float:left; margin: 10px 5px; background-color: #F3F3F3; width: 710px; height: 30px}
+
+.prod_list {float:left}
+.prod_list th {font-size: 13px; color: #6E6E6E; border-bottom: 1px solid black; padding-bottom: 3px}
+.prod_list td {border-bottom: 1px solid silver}
+
+.paging {float: left; margin-top: 10px; width: 710px; font: 13px; font-weight:bold; color: #6E6E6E}
+.paging a {padding: 4px 5px}
+.paging a:HOVER {border: 1px solid silver}
+

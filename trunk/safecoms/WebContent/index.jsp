@@ -1,3 +1,3 @@
 <script>
-location.href="/safecoms/index"
+location.href="/safecoms/index";
 </script>
