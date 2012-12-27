@@ -83,6 +83,7 @@
 .join_table1 {padding: 10px; margin: 12px 10px 10px 10px}
 .join_table1 tr {height: 12px}
 
+/* 상품상세페이지 시작. */
 .prod_header {float: left; background-color: rgb(240, 240, 240); width: 710px; height: 25px; padding: 12px 0 0 10px; margin-left: 5px}
 
 .prod_main {margin-top: 30px; float: left; width: 725px; border-top: 2px green solid; border-bottom: 1px green solid}
@@ -91,7 +92,21 @@
 .prod_table .b_t_l{border-top: 1px green solid; border-left: 1px green solid}
 .prod_table .right_border {border-right: 1px green solid}
 .prod_title {padding: 0 20px 0 15px; height: 35px}
+.prod_view_noti {background-color: #ABDBAB; width: 715px; height: 60px;margin: 10px 5px}
+.prod_view_noti p {margin: 10px 5px 10px 15px}
+.prod_view_detail {width: 725px; margin: 10px 15px}
 
+.prod_comment_list {border-top: 1px solid silver; width: 725px}
+.prod_comment_list li {border-bottom: 1px solid silver}
+.comment_list .comment_header {height: 20px}
+.comment_user {float: left; margin: 5px 15px}
+.comment_modify {float: right; margin: 5px 15px}
+.comment_modify a {padding-left: 5px}
+.comments {margin: 10px 10px; min-height: 30px; _height: 30px}
+.comments_enter {margin: 20px 0 10px 20px}
+/* 상품상세페이지 끝. */
+
+/* 상품 리스트 시작. */
 .prod_search {width:710px; height: 65px; border: 1px silver solid; background-color: #F4F4F4; float: left; margin: 5px 5px 10px 5px}
 .prod_search div {margin: 9px 10px 0px 10px; float: left}
 .prod_search text {margin: 0px; padding: 0px}
@@ -110,4 +125,5 @@
 .paging {float: left; margin-top: 10px; width: 710px; font: 13px; font-weight:bold; color: #6E6E6E}
 .paging a {padding: 4px 5px}
 .paging a:HOVER {border: 1px solid silver}
+/* 상품 리스트 끝. */
 
