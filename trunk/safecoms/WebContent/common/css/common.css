@@ -22,8 +22,10 @@
 .mL150{margin-left: 150px}
 
 .mR5{margin-right: 5px}
+.mR10{margin-right: 10px}
 .mR20{margin-right: 20px}
 .mR45{margin-right: 45px}
+.mR50{margin-right: 50px}
 
 .mT3{margin-top: 3px}
 .mT8{margin-top: 8px}
@@ -48,6 +50,7 @@
 .w160{width: 160px}
 .w180{width: 180px}
 .w495 {width: 495px}
+.w500 {width: 500px}
 
 .h10{height:10px}
 .h16{height:16px}
@@ -64,5 +67,10 @@
 
 .red {color: red}
 .blue {color: blue}
+.green {color: green}
+.underline {text-decoration: underline}
 
 .noBorder {border: 0px}
+
+.taL {text-align: left}
+.taR {text-align: right}
