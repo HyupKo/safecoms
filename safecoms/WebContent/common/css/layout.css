@@ -141,5 +141,28 @@
 .prod_buy_form td {padding: 2px}
 .prod_buy_form_result {margin: 15px 0; border-top: 1px green solid}
 .prod_buy_form_result table {width: 710px; margin: 10px 30px}
+/* 상품 구매 페이지 끝. */
 
+/* 상품 등록 페이지 시작. */
+.prod_entry_header {background-color: #F0F0F0; padding: 10px 0 10px 15px; width: 700px; margin: 5px 5px 10px 5px}
+.prod_entry {margin: 15px 0; width: 715px}
+.prod_category_table {width: 720px; border: 7px solid orange}
+.prod_category_table td {border-right: 7px solid orange}
+.prod_category {overflow-x: hidden; overflow-y: scroll; width: 100%; height: 90px; border: 1px red solid}
+.prod_category li {padding-left: 5px}
+.prod_category li:HOVER {border: 1px dotted; cursor: pointer}
+.prod_entry_contents {margin: 5px 0 15px 0; width: 720px; border-top: 2px green solid; border-bottom: 1px green solid; background-color: #F5F9F5}
+.prod_entry_contents table {width: 700px; margin: 10px 30px}
+.prod_entry_contents table td {padding: 3px}
+.fee_preview {border: 1px solid silver; background-color: #F0F0F0; padding: 2px 5px; cursor: pointer}
 
+.prod_entry_detail {margin: 5px 0 10px 0; width: 715px; border-top: 2px green solid; border-bottom: 1px green solid; background-color: #F9F9F9}
+.prod_entry_detail li {padding: 5px}
+
+/* 상품 등록 페이지 끝. */
+
+/* 파일 업로드 관련 css. */
+.file_input_textbox {float: left; width: 250px; margin-bottom: 5px}
+.file_input_dev {position: relative; width: 100px; height: 23px; overflow: hidden}
+.file_input_button {width: 100px; height:20px; position: absolute; top: -1px; background-color: #33BB00; color: #FFFFFF; border-style: solid; cursor: pointer}
+.file_input_hidden {font-size: 45px; position: absolute; right: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity:0; -moz-opacity:0;}
