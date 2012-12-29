@@ -19,7 +19,7 @@ $(document).ready(function() {
 <div id="wrap">
 	<div class="content">
 	
-		<p class="mL5">▶ 상품 목록</p>
+		<p class="mL5">▶ 상품 등록</p>
 		
 		<div class="prod_entry_header">
 			&gt;<span class="blue"><strong>세이프컴스</strong></span>는 <span class="red">불확실한 상품</span>의 거래는 <span class="red">엄격히 제한</span>합니다. 상품은 개별 판매자가 등록한 것으로,<br>
