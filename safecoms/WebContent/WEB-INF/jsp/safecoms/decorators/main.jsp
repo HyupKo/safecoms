@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>컴스클럽</title>
 <link type="text/css" rel="stylesheet" href="/common/css/import.css">
+<script type="text/javascript" src="/common/js/jquery/jquery-1.8.2.min.js"></script>
 </head>
 <body>
 	<div id="wrap">
@@ -17,6 +18,7 @@
 		<page:applyDecorator name="_navigation" />
 
 		<decorator:title />
+		<decorator:head />
 		<decorator:body />
 
 		<!-- end body -->

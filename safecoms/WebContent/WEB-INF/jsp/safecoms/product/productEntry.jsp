@@ -5,6 +5,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<script type="text/javascript">
+<!--
+
+$(document).ready(function() {
+	$(".fee_preview").bind("click", function() { $("#mw_temp").css("display", "block"); $("body").addClass("stop-scrolling"); });
+});
+
+//-->
+</script>
 </head>
 <body>
 <div id="wrap">
@@ -243,5 +252,98 @@
 		</div>
 	</div>
 </div>
+
+<!-- //Modal Window -->
+<div id="mw_temp" class="mw" style="display: none">
+	<div class="bg"></div>
+	<div class="fg">
+		<div class="fee_preview_layer">
+			
+			<p class="mL5 mT3">수수료 미리보기 (이미지로 대체 해야함.)</p>
+			
+			<center>
+				<table class="fee_select">
+					<colgroup>
+						<col width="30%">
+						<col width="70%">
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>결제 수수료 부담</th>
+							<td>
+								<input type="radio" name="" class="noBorder"> 판매자
+								<input type="radio" name="" class="noBorder"> 구매자
+							</td>
+						</tr>
+						<tr>
+							<th>택배비 부담</th>
+							<td>
+								<input type="radio" name="" class="noBorder"> 판매자
+								<input type="radio" name="" class="noBorder"> 구매자
+								(구매자 선택 : 상품 구입시 합산)
+							</td>
+						</tr>
+						<tr>
+							<th>상품금액</th>
+							<td>
+								<input type="text" name="" value="0" class="taR h16 pR5">
+							</td>
+						</tr>
+						<tr>
+							<th>예상 택배비</th>
+							<td>
+								<input type="text" name="" value="0" class="taR h16 pR5">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<table class="fee_info">
+					<colgroup>
+						<col width="50%">
+						<col width="25%">
+						<col width="25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th>수수료 종류</th>
+							<th>판매금액</th>
+							<th>지급예정금액</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<p>① 안전거래 수수료</p>
+								<p>② 신용카드 (<span class="red line">3.7%</span> 3.5%)</p>
+								<p>③ 무통장입금</p>
+								<p>④ 적립금으로 구매</p>
+							</td>
+							<td>
+								<div class="taR">
+									<p>&#8361; 0</p>
+									<p>&#8361; 0</p>
+									<p>&#8361; 0</p>
+									<p>&#8361; 0</p>
+								</div>
+							</td>
+							<td>
+								<div class="red taR">
+									<p>&#8361; 0</p>
+									<p>&#8361; 0</p>
+									<p>&#8361; 0</p>
+									<p>&#8361; 0</p>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<button type="button" onclick="$('#mw_temp').css('display', 'none'); $('body').removeAttr('class');">닫기</button>
+			</center>
+		</div>
+	</div>
+</div>
+<!-- //Modal Window -->
+
 </body>
 </html>

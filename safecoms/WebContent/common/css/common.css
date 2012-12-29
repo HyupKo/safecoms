@@ -32,7 +32,9 @@
 .mT10{margin-top: 10px}
 
 .mB5{margin-bottom:5px}
+.mB20{margin-bottom:20px}
 
+.pR5{padding-right:5px}
 .pR10{padding-right:10px}
 .pR20{padding-right:20px}
 .pR30{padding-right:30px}
@@ -69,6 +71,7 @@
 .blue {color: blue}
 .green {color: green}
 .underline {text-decoration: underline}
+.line {text-decoration: line-through}
 
 .noBorder {border: 0px}
 

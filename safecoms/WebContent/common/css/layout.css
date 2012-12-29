@@ -159,6 +159,13 @@
 .prod_entry_detail {margin: 5px 0 10px 0; width: 715px; border-top: 2px green solid; border-bottom: 1px green solid; background-color: #F9F9F9}
 .prod_entry_detail li {padding: 5px}
 
+.fee_preview_layer .fee_select {margin: 5px 0 10px 0; width: 470px}
+.fee_preview_layer .fee_select  th {background-color: #F7F7F7; padding: 8px; border-top: 1px solid silver; border-bottom: 1px solid silver; border-right: 1px solid silver; font-weight: normal}
+.fee_preview_layer .fee_info {border: 1px solid silver; margin-bottom: 5px; width: 420px}
+.fee_preview_layer .fee_info th {background-color: #F9F9F9; padding: 6px; border-top: 1px solid silver; border-bottom: 1px solid silver; border-right: 1px solid silver; font-weight: normal}
+.fee_preview_layer td {padding: 0 8px; border-top: 1px solid silver; border-bottom: 1px solid silver; text-align: left}
+.fee_preview_layer .fee_info td {border-right: 1px solid silver}
+.fee_preview_layer .fee_info td p {padding: 2px}
 /* 상품 등록 페이지 끝. */
 
 /* 파일 업로드 관련 css. */
@@ -166,3 +173,15 @@
 .file_input_dev {position: relative; width: 100px; height: 23px; overflow: hidden}
 .file_input_button {width: 100px; height:20px; position: absolute; top: -1px; background-color: #33BB00; color: #FFFFFF; border-style: solid; cursor: pointer}
 .file_input_hidden {font-size: 45px; position: absolute; right: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity:0; -moz-opacity:0;}
+/* 파일 업로드 관련 css. */
+
+/* Modal Dialog css. */
+/* html, body{height:100%;margin:0} */
+.mw{position:fixed;_position:absolute;top:0;left:0;width:100%;height:100%}
+.mw .bg{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:.5;filter:alpha(opacity=50)}
+.mw .fg{position:absolute;top:50%;left:50%;width:480px;height:330px;margin:-170px 0 0 -250px;padding:2px;border:3px solid #ccc;background:#fff}
+/* Modal Dialog css. */
+
+/* block scroll css. */
+.stop-scrolling {height: 100%; overflow: hidden}
+/* block scroll css. */
