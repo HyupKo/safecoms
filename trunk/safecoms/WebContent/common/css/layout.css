@@ -156,8 +156,11 @@
 .prod_entry_contents table td {padding: 3px}
 .fee_preview {border: 1px solid silver; background-color: #F0F0F0; padding: 2px 5px; cursor: pointer}
 
-.prod_entry_detail {margin: 5px 0 10px 0; width: 715px; border-top: 2px green solid; border-bottom: 1px green solid; background-color: #F9F9F9}
-.prod_entry_detail li {padding: 5px}
+.prod_entry_detail {float: left; margin: 5px 0 10px 0; width: 715px; border-top: 2px green solid; border-bottom: 1px green solid; background-color: #F9F9F9}
+.prod_entry_detail ul {float: left; width: 400px}
+.prod_entry_detail li {padding: 5px; height: 80px}
+.entry_no_image_large {width: 250px; height: 250px}
+.entry_no_image_small {width: 50px; height: 50px}
 
 .fee_preview_layer .fee_select {margin: 5px 0 10px 0; width: 470px}
 .fee_preview_layer .fee_select  th {background-color: #F7F7F7; padding: 8px; border-top: 1px solid silver; border-bottom: 1px solid silver; border-right: 1px solid silver; font-weight: normal}
@@ -176,11 +179,11 @@
 /* 회원가입 페이지 끝. */
 
 /* 파일 업로드 관련 css. */
-.file_input_textbox {float: left; width: 250px; margin-bottom: 5px}
-.file_input_dev {position: relative; width: 100px; height: 23px; overflow: hidden}
+.file_input_textbox {float: left; width: 200px; margin-bottom: 5px}
+.file_input_dev {position: relative; height: 23px; overflow: hidden}
 .file_input_button {width: 100px; height:20px; position: absolute; top: -1px; background-color: #33BB00; color: #FFFFFF; border-style: solid; cursor: pointer}
 .file_input_button2 {height:20px; position: absolute; top: -1px; background-color: silver; color: #FFFFFF; border-style: solid; cursor: pointer}
-.file_input_hidden {font-size: 45px; position: absolute; right: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity:0; -moz-opacity:0; cursor: pointer}
+.file_input_hidden {width: 100px; height: 18px; font-size: 45px; position: absolute; right: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity:0; -moz-opacity:0; cursor: pointer; margin: 15px 15px 0 0}
 .file_input_hidden2 {width: 107px; font-size: 45px; position: absolute; right: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity:0; -moz-opacity:0; cursor: pointer}
 /* 파일 업로드 관련 css. */
 
