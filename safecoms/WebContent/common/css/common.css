@@ -28,6 +28,7 @@
 .mR50{margin-right: 50px}
 
 .mT3{margin-top: 3px}
+.mT5{margin-top: 5px}
 .mT8{margin-top: 8px}
 .mT10{margin-top: 10px}
 
@@ -48,9 +49,14 @@
 .pB5{padding-bottom:5px}
 .pB10{padding-bottom:10px}
 
-.w150{width: 150px}
-.w160{width: 160px}
-.w180{width: 180px}
+.pT10 {padding-top:10px}
+
+.w50 {width: 50px}
+.w150 {width: 150px}
+.w160 {width: 160px}
+.w180 {width: 180px}
+.w250 {width: 250px}
+.w300 {width: 300px}
 .w495 {width: 495px}
 .w500 {width: 500px}
 
