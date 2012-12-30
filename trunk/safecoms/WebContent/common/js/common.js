@@ -1,13 +1,6 @@
 /**
  * 통합 자바 스크립트 파일.
  */
-
-document.attachEvent("oncontextmenu",contextmenu);
-
-function contextmenu() {
-	return false;
-}
-
 /**
  * 숫자에 1000 단위마다 콤마넣기.
  *
