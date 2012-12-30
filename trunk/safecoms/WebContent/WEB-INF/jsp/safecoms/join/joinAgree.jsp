@@ -114,7 +114,7 @@
 		</div>
 		<div style="float:left; text-align: center; width: 715px">
 			<div>
-				<input type="checkbox">
+				<input type="checkbox" class="noBorder">
 				<img class="join_Agree7" alt="약관 확인 및 실명확인 동의" src="/images/join030.gif">
 			</div>
 			<div style="margin-top: 10px">

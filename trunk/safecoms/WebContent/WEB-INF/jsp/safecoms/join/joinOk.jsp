@@ -11,14 +11,17 @@
 	<div class="content">
 		<img class="join_Ok1" alt="회원가입" src="/images/join001.gif">
 		<img class="join_Ok2" alt="Step3" src="/images/join048.gif">
-		<img class="join_Ok3" alt="회원가입 완료" src="/images/join049.gif">
-		<div>
+		<img class="join_Ok3 mL5 mT10" alt="회원가입 완료" src="/images/join049.gif">
+		
+		<div class="mT10 mL20 mB20">
 			OOO 님<br>
 			사이트의 가입을 진심으로 축하드립니다 !!
 		</div>
 		<div>
-			<img class="join_Form8" alt="로그인" src="/images/btn/join050.gif">
-			<img class="join_Form9" alt="홈으로" src="/images/btn/join051.gif" onclick="location.href='/safecoms/index'">
+			<center>
+				<img class="join_Form8" alt="로그인" src="/images/btn/join050.gif">
+				<img class="join_Form9" alt="홈으로" src="/images/btn/join051.gif" onclick="location.href='/safecoms/index'">
+			</center>
 		</div>
 	</div>
 </div>
