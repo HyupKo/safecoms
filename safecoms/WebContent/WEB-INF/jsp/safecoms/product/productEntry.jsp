@@ -202,54 +202,52 @@ $(document).ready(function() {
 		<p class="mL5">▶ 상세정보 입력</p>
 		
 		<div class="prod_entry_detail">
-			<div class="floatL mL5 mB5 mR20 mT5">
-				<img src="/images/join040.gif" width="250" height="250">
+			<div class="floatL mL40 mB5 mR20 mT5">
+				<img src="/images/join040.gif" class="entry_no_image_large">
 				<p class="mT5" align="center">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
 			</div>
+			
 			<ul>
 				<li>
-					<div class="floatL mR10">
-						<img src="/images/join040.gif" width="70" height="70">
-					</div>
 					<div>
-						<p>이미지1</p>
+						<p class="mL10"><strong>이미지1</strong></p>
 						
-						<input type="text" name="fileName1" id="fileName1" class="file_input_textbox" readonly="readonly" style="display:none;">
+						<img src="/images/join040.gif" class="entry_no_image_small floatL">
 						
-						<div class="file_input_dev">
-							<input type="button" value="찾아보기" class="file_input_button">
+						<div class="file_input_dev pT15 pL10">
+							<input type="text" name="fileName1" id="fileName1" class="file_input_textbox" readonly="readonly">
+							<input type="button" value="찾아보기" class="file_input_button mT15">
 							<input type="file" class="file_input_hidden" onchange="document.getElementById('fileName1').value = this.value;">
 						</div>
+						<p class="mL80">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
 					</div>
 				</li>
 				<li>
-					<div class="floatL mR10">
-						<img src="/images/join040.gif" width="70" height="70">
-					</div>
 					<div>
-						<p>이미지2</p>
+						<p class="mL10"><strong>이미지1</strong></p>
 						
-						<input type="text" name="fileName2" id="fileName2" class="file_input_textbox" readonly="readonly" style="display:none;">
+						<img src="/images/join040.gif" class="entry_no_image_small floatL">
 						
-						<div class="file_input_dev">
-							<input type="button" value="찾아보기" class="file_input_button">
+						<div class="file_input_dev pT15 pL10">
+							<input type="text" name="fileName2" id="fileName2" class="file_input_textbox" readonly="readonly">
+							<input type="button" value="찾아보기" class="file_input_button mT15">
 							<input type="file" class="file_input_hidden" onchange="document.getElementById('fileName2').value = this.value;">
 						</div>
+						<p class="mL80">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
 					</div>
 				</li>
 				<li>
-					<div class="floatL mR10">
-						<img src="/images/join040.gif" width="70" height="70">
-					</div>
 					<div>
-						<p>이미지3</p>
+						<p class="mL10"><strong>이미지1</strong></p>
 						
-						<input type="text" name="fileName3" id="fileName3" class="file_input_textbox" readonly="readonly" style="display:none;">
+						<img src="/images/join040.gif" class="entry_no_image_small floatL">
 						
-						<div class="file_input_dev">
-							<input type="button" value="찾아보기" class="file_input_button">
+						<div class="file_input_dev pT15 pL10">
+							<input type="text" name="fileName3" id="fileName3" class="file_input_textbox" readonly="readonly">
+							<input type="button" value="찾아보기" class="file_input_button mT15">
 							<input type="file" class="file_input_hidden" onchange="document.getElementById('fileName3').value = this.value;">
 						</div>
+						<p class="mL80">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
 					</div>
 				</li>
 				
