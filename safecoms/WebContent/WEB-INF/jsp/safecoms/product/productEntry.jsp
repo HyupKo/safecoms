@@ -204,7 +204,6 @@ $(document).ready(function() {
 		<div class="prod_entry_detail">
 			<div class="floatL mL40 mB5 mR20 mT5">
 				<img src="/images/join040.gif" class="entry_no_image_large">
-				<p class="mT5" align="center">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
 			</div>
 			
 			<ul>
