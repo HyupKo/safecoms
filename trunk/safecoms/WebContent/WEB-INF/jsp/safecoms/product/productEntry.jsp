@@ -108,7 +108,7 @@ $(document).ready(function() {
 					<tr>
 						<td>판매금액</td>
 						<td>
-							<input type="text" class="w100 taR" name="" value=""> 원 <span class="fee_preview">수수료미리보기</span>
+							<input type="text" class="w100 taR pR5" name="" value=""> 원 <span class="fee_preview">수수료미리보기</span>
 						</td>
 					</tr>
 					<tr>
@@ -158,7 +158,7 @@ $(document).ready(function() {
 					<tr>
 						<td>예상운송비</td>
 						<td>
-							<input type="text" class="w100 taR" name="" value=""> 원
+							<input type="text" class="w100 taR pR5" name="" value=""> 원
 						</td>
 					</tr>
 					<tr>
@@ -206,31 +206,31 @@ $(document).ready(function() {
 				<li>
 					<p class="floatL mR10">이미지1</p>
 					<p class="floatR mR50">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
-					<input type="text" name="fileName" id="fileName" class="file_input_textbox" readonly="readonly">
+					<input type="text" name="fileName1" id="fileName1" class="file_input_textbox" readonly="readonly">
 					
 					<div class="file_input_dev">
 						<input type="button" value="찾아보기" class="file_input_button">
-						<input type="file" class="file_input_hidden" onchange="document.getElementById('fileName').value = this.value;">
+						<input type="file" class="file_input_hidden" onchange="document.getElementById('fileName1').value = this.value;">
 					</div>
 				</li>
 				<li>
 					<p class="floatL mR10">이미지2</p>
 					<p class="floatR mR50">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
-					<input type="text" class="file_input_textbox" readonly="readonly">
+					<input type="text" name="fileName2" id="fileName2" class="file_input_textbox" readonly="readonly">
 					
 					<div class="file_input_dev">
 						<input type="button" value="찾아보기" class="file_input_button">
-						<input type="file" class="file_input_hidden">
+						<input type="file" class="file_input_hidden" onchange="document.getElementById('fileName2').value = this.value;">
 					</div>
 				</li>
 				<li>
 					<p class="floatL mR10">이미지3</p>
 					<p class="floatR mR50">(GIF, JPG 확장명 파일 가능/500Kb 이하)</p>
-					<input type="text" class="file_input_textbox" readonly="readonly">
+					<input type="text" name="fileName3" id="fileName3" class="file_input_textbox" readonly="readonly">
 					
 					<div class="file_input_dev">
 						<input type="button" value="찾아보기" class="file_input_button">
-						<input type="file" class="file_input_hidden">
+						<input type="file" class="file_input_hidden" onchange="document.getElementById('fileName3').value = this.value;">
 					</div>
 				</li>
 			</ul>
