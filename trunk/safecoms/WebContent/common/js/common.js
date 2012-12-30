@@ -1,8 +1,8 @@
 /**
- * ÅëÇÕ ÀÚ¹Ù ½ºÅ©¸³Æ® ÆÄÀÏ.
+ * í†µí•© ìë°” ìŠ¤í¬ë¦½íŠ¸ íŒŒì¼.
  */
 /**
- * ¼ıÀÚ¿¡ 1000 ´ÜÀ§¸¶´Ù ÄŞ¸¶³Ö±â.
+ * ìˆ«ìì— 1000 ë‹¨ìœ„ë§ˆë‹¤ ì½¤ë§ˆë„£ê¸°.
  *
  * @param	expression
  * @return	string/false
@@ -35,7 +35,7 @@ function money_format(expression) {
 }
 
 /**
- * ¼ıÀÚ¿¡¼­ ÄŞ¸¶ Á¦°Å.
+ * ìˆ«ìì—ì„œ ì½¤ë§ˆ ì œê±°.
  *
  * @param	expression
  * @return	string/false
@@ -73,7 +73,7 @@ function intToStripComma(expression) {
 }
 
 /**
- * È­¸é »çÀÌÁî Á¶ÀıÇÏ¿© Á¤Áß¾Ó¿¡¼­ POPUP
+ * í™”ë©´ ì‚¬ì´ì¦ˆ ì¡°ì ˆí•˜ì—¬ ì •ì¤‘ì•™ì—ì„œ POPUP
  * 
  * @param url
  * @param w
@@ -85,7 +85,7 @@ function openPopUpWithSize(url, w, h, scroll) {
 }
 
 /**
- * È­¸é Á¤Áß¾Ó¿¡¼­ POPUP (window.open).
+ * í™”ë©´ ì •ì¤‘ì•™ì—ì„œ POPUP (window.open).
  * 
  * @param url
  * @param name
@@ -105,7 +105,7 @@ function fnOpenCenterWin(url, name, w, h, scroll) {
 }
 
 /**
- * ÀüÈ­¹øÈ£ Ã¼Å© ¹× ¸¶½ºÅ· Ã³¸®.
+ * ì „í™”ë²ˆí˜¸ ì²´í¬ ë° ë§ˆìŠ¤í‚¹ ì²˜ë¦¬.
  * 
  * @param num
  * @returns
@@ -115,7 +115,7 @@ function phone_format(num){
 }
 
 /**
- * ÀüÈ­¹øÈ£ Ã¼Å© ¹× *** ¸¶½ºÅ· Ã³¸®.
+ * ì „í™”ë²ˆí˜¸ ì²´í¬ ë° *** ë§ˆìŠ¤í‚¹ ì²˜ë¦¬.
  * 
  * @param num
  * @returns
@@ -128,7 +128,7 @@ function phone_mask_format(num){
 }
 
 /**
- * ³¯Â¥ Ã¼Å© ¹× ¸¶½ºÅ· Ã³¸®.
+ * ë‚ ì§œ ì²´í¬ ë° ë§ˆìŠ¤í‚¹ ì²˜ë¦¬.
  * 
  * @param date
  * @returns
@@ -138,7 +138,7 @@ function calendar_format(date) {
 }
 
 /**
- * ³¯Â¥ Ã¼Å© ¹× ¸¶½ºÅ· Ã³¸®.
+ * ë‚ ì§œ ì²´í¬ ë° ë§ˆìŠ¤í‚¹ ì²˜ë¦¬.
  * 
  * @param date, hyphen
  * @returns
@@ -152,7 +152,7 @@ function calendar_format2(date, hyphen) {
 }
 
 /**
- * ½Ã°£ Ã¼Å© ¹× ¸¶½ºÅ· Ã³¸®.
+ * ì‹œê°„ ì²´í¬ ë° ë§ˆìŠ¤í‚¹ ì²˜ë¦¬.
  * @param time
  * @returns
  */
@@ -182,7 +182,7 @@ function trim(str) {
 }
 
 /**
- * ¿ìÆí¹øÈ£ ¸¶½ºÅ· Ã³¸®.
+ * ìš°í¸ë²ˆí˜¸ ë§ˆìŠ¤í‚¹ ì²˜ë¦¬.
  * @param num
  * @returns
  */
@@ -191,16 +191,16 @@ function post_format(num) {
 }
 
 /**
- * ÁöÁ¤ÇÑ ¿ÀºêÁ§Æ®ÀÇ ÀÔ·Â °ªÀÇ ±æÀÌ¸¦ Á¦ÇÑ ÇÑ´Ù.
- * @param obj(ÀÔ·Â°´Ã¼)
- * @param maxLength(Á¦ÇÑ ±æÀÌ)
+ * ì§€ì •í•œ ì˜¤ë¸Œì íŠ¸ì˜ ì…ë ¥ ê°’ì˜ ê¸¸ì´ë¥¼ ì œí•œ í•œë‹¤.
+ * @param obj(ì…ë ¥ê°ì²´)
+ * @param maxLength(ì œí•œ ê¸¸ì´)
  * @returns {Boolean}
  */
 function checkLength(obj, maxLength) {
 	if (maxLength == null || maxLength == '' || parseInt(maxLength) < 0) return true;
 	
 	if (obj.value.length > parseInt(maxLength)){
-		alert("ÀÔ·Â Á¦ÇÑ " + maxLength + "Byte¸¦ ÃÊ°úÇß½À´Ï´Ù.");
+		alert("ì…ë ¥ ì œí•œ " + maxLength + "Byteë¥¼ ì´ˆê³¼í–ˆìŠµë‹ˆë‹¤.");
 //		obj.value.substring(0, parseInt(maxLength));
 		event.returnValue = false;
 		obj.focus();
@@ -211,7 +211,7 @@ function checkLength(obj, maxLength) {
 }
 
 /**
- * ¼ıÀÚ¸¸ ÀÔ·Â Ã¼Å©ÇÑ´Ù.
+ * ìˆ«ìë§Œ ì…ë ¥ ì²´í¬í•œë‹¤.
  * @param: e event object
  * @use : onkeydown="onlyNumberCheck(event);"
  */
@@ -221,12 +221,12 @@ function onlyNumberCheck(e) {
 
 	if(window.event) {
 		if(!((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105) || e.keyCode == 8 || e.keyCode == 9 || e.keyCode == 37 || e.keyCode == 39 || e.keyCode == 46 || e.keyCode == 0 || e.keyCode == 13 || e.keyCode == 17 || e.keyCode == 16 || e.keyCode == 35 || e.keyCode == 36 || (ctrl && code==86))) {
-			alert("¼ıÀÚ¸¸ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			alert("ìˆ«ìë§Œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			event.returnValue = false;
 		}
 	} else {
 		if(!((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105) || e.keyCode == 8 || e.keyCode == 9 || e.keyCode == 37 || e.keyCode == 39 || e.keyCode == 46 || e.keyCode == 0 || e.keyCode == 13 || e.keyCode == 17 || e.keyCode == 16 || e.keyCode == 35 || e.keyCode == 36 || (ctrl && code==86))) {
-			alert("¼ıÀÚ¸¸ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			alert("ìˆ«ìë§Œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			e.preventDefault();
 		}			
 	}
@@ -234,7 +234,7 @@ function onlyNumberCheck(e) {
 
 
 /**
- * ÃÖ´ë ±æÀÌ°¡ Ã¤¿öÁö¸é ÀÚµ¿À¸·Î ÁöÁ¤ÇÑ °³Ã¼·Î Æ÷Ä¿½º¸¦ ÀÌµ¿ÇÑ´Ù.
+ * ìµœëŒ€ ê¸¸ì´ê°€ ì±„ì›Œì§€ë©´ ìë™ìœ¼ë¡œ ì§€ì •í•œ ê°œì²´ë¡œ í¬ì»¤ìŠ¤ë¥¼ ì´ë™í•œë‹¤.
  * @param curObj
  * @param nextObj
  * @param maxLength
@@ -251,7 +251,7 @@ function sendingNextTab(curObj, nextObj, maxLength) {
 }
 
 /**
- * ÁöÁ¤ÇÑ °´Ã¼¿¡ ÀÚµ¿À¸·Î Æ÷Ä¿½º¸¦ ÀÌµ¿.
+ * ì§€ì •í•œ ê°ì²´ì— ìë™ìœ¼ë¡œ í¬ì»¤ìŠ¤ë¥¼ ì´ë™.
  * @param obj
  */
 function setFocus(obj) {
@@ -262,9 +262,9 @@ function setFocus(obj) {
 }
 
 /**
- * ÀÌ¸ŞÀÏÁÖ¼Ò Ã¼Å©
+ * ì´ë©”ì¼ì£¼ì†Œ ì²´í¬
  *
- * @param str ¹®ÀÚ¿­
+ * @param str ë¬¸ìì—´
  * @return boolean
  */
 function isEmail(str)
@@ -277,11 +277,11 @@ function isEmail(str)
 }
 
 /**
- * ¹®ÀÚ¿­ ÁÂÃø¿¡ ÁöÁ¤ÇÑ ¹®ÀÚ·Î Ã¤¿ö³Ö±â
+ * ë¬¸ìì—´ ì¢Œì¸¡ì— ì§€ì •í•œ ë¬¸ìë¡œ ì±„ì›Œë„£ê¸°
  *
- * @param		oOrg			ÄÁÆ®·Ñ ¶Ç´Â ¹®ÀÚ¿­
- * @param		sPaddingChar	Ã¤¿ö³Ö±â ¹®ÀÚ
- * @param		iNum			Ã¤¿ö³Ö±âÇÑ ¹®ÀÚ¿­ ÀÚ¸´¼ö
+ * @param		oOrg			ì»¨íŠ¸ë¡¤ ë˜ëŠ” ë¬¸ìì—´
+ * @param		sPaddingChar	ì±„ì›Œë„£ê¸° ë¬¸ì
+ * @param		iNum			ì±„ì›Œë„£ê¸°í•œ ë¬¸ìì—´ ìë¦¿ìˆ˜
  * @return	String
  */
 function setLPadding (oOrg, sPaddingChar, iNum) {
@@ -333,7 +333,7 @@ function isNumber (expression) {
 }
 
 /**
- * int °ªÀ¸·Î ¹İÈ¯ÇÑ´Ù.
+ * int ê°’ìœ¼ë¡œ ë°˜í™˜í•œë‹¤.
  * 
  * @param number
  * @returns
@@ -350,10 +350,10 @@ function int(number) {
 }
 
 /**
- * parsetInt()ÀÇ ´ë¿ë ¸Ş¼Òµå, parsetInt()¿¡¼Òµå¿¡¼­ ¿À·ù°¡ ¹ß»ıÇÏ¿© ÀÛ¼º
+ * parsetInt()ì˜ ëŒ€ìš© ë©”ì†Œë“œ, parsetInt()ì—ì†Œë“œì—ì„œ ì˜¤ë¥˜ê°€ ë°œìƒí•˜ì—¬ ì‘ì„±
  *
  * @param		iValue
- * @return	convert value (NumericÀÌ ¾Æ´Ñ °æ¿ì 0)
+ * @return	convert value (Numericì´ ì•„ë‹Œ ê²½ìš° 0)
  */
 function convertInt (iValue) {
 	if (isNumber(iValue.toString()) == false) return 0;
@@ -362,10 +362,10 @@ function convertInt (iValue) {
 }
 
 /**
- * ³¯Â¥ formatÀ» delimÀ¸·Î ³ª´²ÁØ´Ù.
+ * ë‚ ì§œ formatì„ delimìœ¼ë¡œ ë‚˜ëˆ ì¤€ë‹¤.
  *
  * @param		sDate		Date String (YYYYMMDD)
- * @param		delim		±¸ºĞÀÚ (ex: /, -)
+ * @param		delim		êµ¬ë¶„ì (ex: /, -)
  * @return	String
 */
 function mDateFormat(val,delim)
@@ -377,7 +377,7 @@ function mDateFormat(val,delim)
 }
 
 /**
- * ³¯Â¥ ´õÇÏ±â
+ * ë‚ ì§œ ë”í•˜ê¸°
  *
  * @param		sDate		Date String (YYYYMMDD)
  * @param		sOpt		add option ("Y", "M", "D")
@@ -414,8 +414,8 @@ function dateAdd (sDate, sOpt, iAddValue) {
 }
 
 /**
- * µÎ TimeÀÌ ¸î °³¿ù Â÷ÀÌ³ª´ÂÁö ±¸ÇÔ
- * time1ÀÌ time2º¸´Ù Å©¸é(¹Ì·¡¸é) minus(-)
+ * ë‘ Timeì´ ëª‡ ê°œì›” ì°¨ì´ë‚˜ëŠ”ì§€ êµ¬í•¨
+ * time1ì´ time2ë³´ë‹¤ í¬ë©´(ë¯¸ë˜ë©´) minus(-)
  * @param time1
  * @param time2
  * @returns
@@ -430,20 +430,20 @@ function getMonthInterval(time1,time2) { //measureMonthInterval(time1,time2)
 }
 
 /**
- * Time ½ºÆ®¸µÀ» ÀÚ¹Ù½ºÅ©¸³Æ® Date °´Ã¼·Î º¯È¯
- * parameter time: Time Çü½ÄÀÇ String
+ * Time ìŠ¤íŠ¸ë§ì„ ìë°”ìŠ¤í¬ë¦½íŠ¸ Date ê°ì²´ë¡œ ë³€í™˜
+ * parameter time: Time í˜•ì‹ì˜ String
  * @param time
  * @returns {Date}
  */
 function toTimeObject(time) { //parseTime(time)
    var year  = time.substr(0,4);
-   var month = time.substr(4,2) ? 1 : ""; // 1¿ù=0,12¿ù=11
+   var month = time.substr(4,2) ? 1 : ""; // 1ì›”=0,12ì›”=11
    var day   = time.substr(6,2);
    return new Date(year,month,day);
 }
 
 /**
- * µÎ ³¯Â¥ »çÀÌÀÇ ³¯¼ö ±¸ÇÏ±â
+ * ë‘ ë‚ ì§œ ì‚¬ì´ì˜ ë‚ ìˆ˜ êµ¬í•˜ê¸°
  *
  * @param		sFrom
  * @param		sTo
@@ -457,7 +457,7 @@ function dateDiff (sFrom, sTo) {
 }
 
 /**
- * interval¿¡ Á¶°Ç¿¡ ³â/¿ù/ÀÏ/½Ã/ºĞ/ÃÊÀÇ Â÷ÀÌ¸¦ ¹İÈ¯ÇÑ´Ù.
+ * intervalì— ì¡°ê±´ì— ë…„/ì›”/ì¼/ì‹œ/ë¶„/ì´ˆì˜ ì°¨ì´ë¥¼ ë°˜í™˜í•œë‹¤.
  * 
  * @param interval
  * @param date1
@@ -502,7 +502,7 @@ function dateDiff2(interval, date1, date2) {
 }
 
 /**
- * ÀÚµ¿À¸·Î ³¯Â¥Çü½ÄÀ¸·Î º¯È¯
+ * ìë™ìœ¼ë¡œ ë‚ ì§œí˜•ì‹ìœ¼ë¡œ ë³€í™˜
  * @param obj
  */
 function convertDateType(obj) {
@@ -514,19 +514,19 @@ function convertDateType(obj) {
 }
 
 /**
- * ³¯Â¥ Çü½ÄÀÎÁö¸¦ ¹İÈ¯
+ * ë‚ ì§œ í˜•ì‹ì¸ì§€ë¥¼ ë°˜í™˜
  * @param obj
  * @returns {Boolean}
  */
 function onlyDateType(obj) {
 	if (obj.value.length != 10){
-		alert("³¯Â¥ Çü½ÄÀÌ ¸ÂÁö ¾Ê½À´Ï´Ù.");
+		alert("ë‚ ì§œ í˜•ì‹ì´ ë§ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		setFocus(obj);
 		return false;
 	}
 	
 	if (obj.value.indexOf('-') != 4 || obj.value.lastIndexOf('-') != 7){
-		alert("³¯Â¥ Çü½ÄÀÌ ¸ÂÁö ¾Ê½À´Ï´Ù.");
+		alert("ë‚ ì§œ í˜•ì‹ì´ ë§ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		setFocus(obj);
 		return false;
 	}
@@ -537,7 +537,7 @@ function onlyDateType(obj) {
 }
 
 /**
- * ½ºÅ©·Ñµû¶ó ¿òÁ÷ÀÌ´Â ¸Ş´º
+ * ìŠ¤í¬ë¡¤ë”°ë¼ ì›€ì§ì´ëŠ” ë©”ë‰´
  * @param obj
  * @returns {Boolean}
  */
@@ -606,8 +606,8 @@ function initMoving(target, position, topLimit, btmLimit) {
 }
 
 /**
- * ÀÔ·Â¹ŞÀº ÆÄ¶ó¹ÌÅÍ°¡ null ¶Ç´Â undefined ÀÏ °æ¿ì ºó ¹®ÀÚ¿­À» ¸®ÅÏÇÑ´Ù.
- * @param str ¹®ÀÚ¿­
+ * ì…ë ¥ë°›ì€ íŒŒë¼ë¯¸í„°ê°€ null ë˜ëŠ” undefined ì¼ ê²½ìš° ë¹ˆ ë¬¸ìì—´ì„ ë¦¬í„´í•œë‹¤.
+ * @param str ë¬¸ìì—´
  * @returns String
  */
 function setNull(str) {
@@ -618,9 +618,9 @@ function setNull(str) {
 }
 
 /**
- * ÀÔ·Â¹ŞÀº ¹®ÀÚ¿­ ¹ÙÀÌÆ®¼ö¸¦ ¹İÈ¯ÇÑ´Ù.
- * @param uString : ¹®ÀÚ¿­
- * @returns ¹®ÀÚ¿­ ¹ÙÀÌÆ® ¼ö
+ * ì…ë ¥ë°›ì€ ë¬¸ìì—´ ë°”ì´íŠ¸ìˆ˜ë¥¼ ë°˜í™˜í•œë‹¤.
+ * @param uString : ë¬¸ìì—´
+ * @returns ë¬¸ìì—´ ë°”ì´íŠ¸ ìˆ˜
  */
 function lenX(uString) {
 	var len = 0;
@@ -634,7 +634,7 @@ function lenX(uString) {
 }
 
 /**
- * Date Obejct¸¦ ¹İÈ¯ÇÑ´Ù.
+ * Date Obejctë¥¼ ë°˜í™˜í•œë‹¤.
  * 
  * @param Expression 
  * @returns
@@ -680,7 +680,7 @@ function cDate(Expression) {
 }
 
 /**
- * ¹®ÀÚÇüÀ» ¼ıÀÚÇüÀ¸·Î Çüº¯È¯ÇÑ´Ù.
+ * ë¬¸ìí˜•ì„ ìˆ«ìí˜•ìœ¼ë¡œ í˜•ë³€í™˜í•œë‹¤.
  * @param Expression
  * @returns {Number}
  */
@@ -692,7 +692,7 @@ function cNumber(Expression) {
 }
 
 /**
- * ¹®ÀÚÇüÀ¸·Î Çüº¯È¯ÇÑ´Ù.
+ * ë¬¸ìí˜•ìœ¼ë¡œ í˜•ë³€í™˜í•œë‹¤.
  * @param Expression
  * @returns {String}
  */
@@ -701,7 +701,7 @@ function cString(Expression) {
 }
 
 /**
- * ³Ñ¹öÅ¸ÀÔ À¯¹« 
+ * ë„˜ë²„íƒ€ì… ìœ ë¬´ 
  * @param Expression
  * @returns {Boolean}
  */
@@ -713,7 +713,7 @@ function isNumeric(Expression) {
 }
 
 /**
- * ³¯Â¥ À¯Çü À¯¹«
+ * ë‚ ì§œ ìœ í˜• ìœ ë¬´
  * @param Expression
  * @returns {Boolean}
  */
@@ -762,7 +762,7 @@ function isDate(Expression) {
 }
 
 /**
- * RGB ±¸ÇÏ±â.
+ * RGB êµ¬í•˜ê¸°.
  * @param red
  * @param green
  * @param blue
@@ -777,8 +777,8 @@ function RGB(red,green,blue) {
 }
 
 /**
- * Ã³¸® Áß ÇÁ·Î±×·¹½º¹Ù.
- * @param temp : true(ÆË¾÷), false(ÆË¾÷ ´İ±â)
+ * ì²˜ë¦¬ ì¤‘ í”„ë¡œê·¸ë ˆìŠ¤ë°”.
+ * @param temp : true(íŒì—…), false(íŒì—… ë‹«ê¸°)
  */
 var hasLayer = false;
 function isShowLoadingLayer(temp) {
@@ -790,11 +790,11 @@ function isShowLoadingLayer(temp) {
 			frame += '<iframe id="layerFrame" scrolling="no" class="ld_line"></iframe>';
 			frame += "</div></div>";
 			
-			var loading_layer = "<html><head><style>html, body {margin:0; padding:0; font-size:12px; color:#666; font-family:'µ¸¿ò', dotum}'</style></head>" +
+			var loading_layer = "<html><head><style>html, body {margin:0; padding:0; font-size:12px; color:#666; font-family:'ë‹ì›€', dotum}'</style></head>" +
 					"<body style='height:40px;width:145px'>";
 			loading_layer += "<div class='lft' style=\"float:left;width:11px;height:40px;font-size:0;line-height:0;background:url(/images/ld1_lft.png) no-repeat 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ld1_lft.png',sizingMethod='crop')\"></div>";
 			loading_layer += "<div class='cont' style=\"float:left;height:40px;padding:14px 7px 0 0;background:url(/images/ld1_cen.png) repeat-x 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ld1_cen.png',sizingMethod='scale');color:#fff\">" +
-					"<img src='/images/ico_ld_cm.gif' width='17' height='17' alt='' style='margin:-3px 9px 0 0;vertical-align:top'><strong>Ã³¸®Áß </strong> ÀÔ´Ï´Ù.</div>";
+					"<img src='/images/ico_ld_cm.gif' width='17' height='17' alt='' style='margin:-3px 9px 0 0;vertical-align:top'><strong>ì²˜ë¦¬ì¤‘ </strong> ì…ë‹ˆë‹¤.</div>";
 			loading_layer += "<div class='rgt' style=\"float:left;width:11px;height:40px;font-size:0;line-height:0;background:url(/images/ld1_rgt.png) no-repeat 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ld1_rgt.png',sizingMethod='crop')\"></div>";
 			loading_layer += "</div></body>";
 			
@@ -810,8 +810,8 @@ function isShowLoadingLayer(temp) {
 }
 
 /**
- * char ÁÂÃø Ãß°¡.
- *  ¤¤ cbAppUtil.js
+ * char ì¢Œì¸¡ ì¶”ê°€.
+ *  ã„´ cbAppUtil.js
  * @param uString
  * @param length
  * @param char
@@ -826,8 +826,8 @@ function leftAddCharX(uString,length,char) {
 }
 
 /**
- * char ¿ìÃø Ãß°¡.
- * ¤¤ cbAppUtil.js
+ * char ìš°ì¸¡ ì¶”ê°€.
+ * ã„´ cbAppUtil.js
  * @param uString
  * @param length
  * @param char
@@ -842,8 +842,8 @@ function rightAddCharX(uString,length,char) {
 }
 
 /**
- * ³¯Â¥ Æ÷¸ä º¯°æ.
- * ¤¤ cbAppUtil.js
+ * ë‚ ì§œ í¬ë©§ ë³€ê²½.
+ * ã„´ cbAppUtil.js
  * @param Expression
  * @param format
  * @returns
@@ -892,7 +892,7 @@ function dateFormat(Expression,format) {
 
 /**
  * Convert String To Array.
- * ¤¤ cbAppUtil.js
+ * ã„´ cbAppUtil.js
  * @param uString
  * @param ColDlmt
  * @param RowDlmt
@@ -938,7 +938,7 @@ function encode(input) {
 }
 
 /**
- * Sleep ÇÔ¼ö.
+ * Sleep í•¨ìˆ˜.
  * @param milliseconds
  * @returns
  */
@@ -952,7 +952,7 @@ function sleep(milliseconds) {
 }
 
 /**
- * ½Ã°£ ÀÔ·Â.
+ * ì‹œê°„ ì…ë ¥.
  * @param: e event object
  * @param: value
  * @use : onkeydown="time_check(event, value);"
@@ -964,12 +964,12 @@ function time_check(e, value) {
 
 	if(window.event) {
 		if(!((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105) || e.keyCode == 8 || e.keyCode == 9 || e.keyCode == 37 || e.keyCode == 39 || e.keyCode == 46 || e.keyCode == 0 || e.keyCode == 13 || e.keyCode == 17 || e.keyCode == 16 || e.keyCode == 35 || e.keyCode == 36 || (ctrl && code==86))) {
-			alert("¼ıÀÚ¸¸ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			alert("ìˆ«ìë§Œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			event.returnValue = false;
 		}
 	} else {
 		if(!((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105) || e.keyCode == 8 || e.keyCode == 9 || e.keyCode == 37 || e.keyCode == 39 || e.keyCode == 46 || e.keyCode == 0 || e.keyCode == 13 || e.keyCode == 17 || e.keyCode == 16 || e.keyCode == 35 || e.keyCode == 36 || (ctrl && code==86))) {
-			alert("¼ıÀÚ¸¸ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			alert("ìˆ«ìë§Œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			e.preventDefault();
 		}		
 	}
