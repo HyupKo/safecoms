@@ -172,7 +172,7 @@
 .file_input_textbox {float: left; width: 250px; margin-bottom: 5px}
 .file_input_dev {position: relative; width: 100px; height: 23px; overflow: hidden}
 .file_input_button {width: 100px; height:20px; position: absolute; top: -1px; background-color: #33BB00; color: #FFFFFF; border-style: solid; cursor: pointer}
-.file_input_hidden {font-size: 45px; position: absolute; right: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity:0; -moz-opacity:0;}
+.file_input_hidden {font-size: 45px; position: absolute; right: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity:0; -moz-opacity:0; cursor: pointer}
 /* 파일 업로드 관련 css. */
 
 /* Modal Dialog css. */
