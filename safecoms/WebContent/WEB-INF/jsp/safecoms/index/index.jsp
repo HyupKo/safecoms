@@ -8,126 +8,82 @@
 </head>
 <body>
 	<div class="content">
-		<div class="banner">
-			<!-- 상단 배너 -->
-			<div class="content_banner">
-				<img class="main_Img1" alt="메인베너" src="/images/main022-banner.gif">
-			</div>
-			
-			<div class="content_board">
-				<!-- 공지, 이벤트 -->
-				<div class="content_event">
-					<img alt="공지사항" src="/images/main023.gif">
-					<img alt="이벤트소식" src="/images/main024.gif">
-					<img alt="MORE" src="/images/main025.gif" style="float: right;padding-top: 5px">
-				</div>
-				
-				<!-- 공지사항 -->
-				<div class="content_notice">
-					<ul class="noti_ul">
-						<li><a onclick="location.href='/safecoms/product/productView'">상품view테스트</a></li>
-						<li><a onclick="location.href='/safecoms/product/productList'">상품List테스트</a></li>
-						<li>2012년 4월 신용카드</li>
-					</ul>
-				</div>
-				<!-- 지시사항 -->
-				<div>
-					<ul>
-						<li></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		
-		<div class="content_main">
-			<!-- 카테고리 영역 -->
-			<div>
-				<p><img class="main_CateTitle1" alt="카테고리" src="/images/main027.gif"></p>
-				<div class="main_category">
-					
-				</div>
-			</div>
-			
-			<div>
-				<p>
-					<img class="main_CateTitle2" alt="주목받는상품" src="/images/main029.gif">
-					<span class="main_attent_text">텍스트보기/이미지보기</span>
-				</p>
-				
-				<div class="main_attent">
-					
-				</div>
-			</div>
-			
-			<div>
-				<p>
-					<img class="main_CateTitle3" alt="오늘의신규상품" src="/images/main031.gif">
-					<span class="main_attent_text">텍스트보기/이미지보기</span>
-				</p>
-				
-				<div class="main_today_new">
-					
-				</div>
-			</div>
-			
-			<div class="noti_board">
-				<p><img class="main_BoardTitle1" alt="직거래팝니다" src="/images/main033.gif"></p>
-				<ul class="board_ul">
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-				</ul>
-			</div>
-			<div class="noti_board">
-				<p><img class="main_BoardTitle2" alt="직거래삽니다" src="/images/main034.gif"></p>
-				<ul class="board_ul">
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-				</ul>
-			</div>
-			<div class="noti_board" style="float: right">
-				<p><img class="main_BoardTitle3" alt="세이프컴스 이용후기" src="/images/main037.gif"></p>
-				<ul class="board_ul">
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-				</ul>
-			</div>
-			<div class="noti_board">
-				<p><img class="main_BoardTitle4" alt="Q&A" src="/images/main035.gif"></p>
-				<ul class="board_ul">
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-				</ul>
-			</div>
-			<div class="noti_board">
-				<p><img class="main_BoardTitle5" alt="FAQ" src="/images/main036.gif"></p>
-				<ul class="board_ul">
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-					<li>2012년 4월 신용카드</li>
-					<li>직거래 선택시 신용카드</li>
-					<li>수수료 할인 이벤트</li>
-				</ul>
+		<div class="index_category">
+			<img class="cate1" alt="전체 판매상품 목록" src="/images/main_category5.gif">
+			<div class="cate2">
+				<table class="category_table">
+					<colgroup>
+						<col width="20%">
+						<col width="20%">
+						<col width="20%">
+						<col width="20%">
+						<col width="20%">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>
+								<div class="idx_cate_list" style="align:center;background:red;">
+									디지털 완제품
+								</div>
+								브랜드PC
+								베어본
+								서버
+								모니터
+							</td>
+							<td>
+								<div class="prod_category">
+									<ul>
+										<li>PC주요부품</li>
+										<li>PC 주요부품</li>
+										<li>주변기기</li>
+										<li>멀티미디어</li>
+										<li>네트워크</li>
+										<li>PC 주요부품</li>
+										<li>주변기기</li>
+										<li>멀티미디어</li>
+										<li>네트워크</li>
+									</ul>
+								</div>
+							</td>
+							<td>
+								<div class="prod_category">
+									<ul>
+										<li>주변기기</li>
+										<li>CPU</li>
+										<li>RAM</li>
+										<li>메인보드</li>
+										<li>VGA</li>
+									</ul>
+								</div>
+							</td>
+							<td>
+								<div class="prod_category">
+									<ul>
+										<li>멀티미디어/네트워크</li>
+										<li>인텔</li>
+										<li>AMD</li>
+										<li>지포스</li>
+										<li>라데온</li>
+									</ul>
+								</div>
+							</td>
+							<td>
+								<div class="prod_category">
+									<ul>
+										<li>소모품/SW</li>
+										<li>인텔</li>
+										<li>AMD</li>
+										<li>지포스</li>
+										<li>라데온</li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
+
 	</div>
 </body>
 </html>
