@@ -12,7 +12,7 @@
 		</ul>
 	</div>
 	<div class="bnb_cont">
-		<img class="bottom_Img1" alt="컴스클럽" src="/images/main045.gif">
+		<img class="bottom_Img1" alt="컴스클럽" src="/images/main_bottom_logo.gif">
 		<p>
 			주소 : 서울특별시 용산구 한강로 2가 2-185번지 아이피아 3층 3110호<br>
 			개인정보관리책임자 : 최태용 / f2as@naver.com<br>
