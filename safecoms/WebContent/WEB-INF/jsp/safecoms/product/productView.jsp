@@ -9,7 +9,7 @@
 <body>
 <div id="wrap">
 	<div class="content">
-		<p class="mL5">▶ 상품 소개 페이지</p>
+		<p class="mL5"><img src="/images/main_salepage_direct1.gif"></p>
 		<div class="prod_header">
 			<div class="floatL"><strong>&gt; 허위 매물</strong> 또는 <strong>문제의 소지</strong>가 있는 내용의 판매 글은 <span class="red">관리자에게 신고</span> 하여주세요.</div>
 			<div class="floatR red pR10"><strong>[신고하기]</strong></div>
@@ -25,14 +25,14 @@
 						<td colspan="2" class="prod_title">
 							<table>
 								<colgroup>
-									<col width="430px">
-									<col width="125px">
+									<col width="400px">
+									<col width="155px">
 									<col width="">
 								</colgroup>
 								<tbody>
 									<tr>
 										<td>상 품 명 : <strong>ASUS 지포스 GTX680 ENGT680 D5 2GB</strong></td>
-										<td>판매자 : <strong>ASUS</strong></td>
+										<td>판매자 : <strong>ASUS(이름)</strong></td>
 										<td>판매자등급 : <strong>골드</strong><img class="" alt="골드등급" src="/images/grade_gold.gif"></td>
 									</tr>
 								</tbody>
@@ -40,7 +40,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td rowspan="4" class="b_t w395">
+						<td class="b_t w395">
 							<table>
 								<tbody>
 									<tr>
@@ -56,84 +56,26 @@
 											<img class="" alt="크게보기" src="/images/btn/extend_pic.gif">
 										</td>
 									</tr>
-									<tr>
-										<td class="pL10">
-											<table>
-												<colgroup>
-													<col width="60px">
-													<col width="200px">
-												</colgroup>
-												<tbody>
-													<tr>
-														<td>
-															<img class="" alt="경고" src="/images/caution.gif">
-														</td>
-														<td class="pL10">
-															세이프컴스 내 모든 상거래 책임은 거래당사자에게 있으며, 거래전 신중하게 결정하시기 바랍니다.
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</td>
-									</tr>
+									
 								</tbody>
 							</table>
 						</td>
 						<td class="b_t_l">
 							카테고리 : 컴퓨터 &gt; PC주요부품 &gt; VGA &gt; 지포스<br>
 							상품번호 : 201294109284<br>
-							상 품 명 : ASUS 지포스 GTX680 ENGT680 D5 2GB<br>
-							판매수량 : 1개<br>
-							판매가격 : 650,000원
-						</td>
-					</tr>
-					<tr>
-						<td class="b_t_l">
-							상품상태 : ○ 중고 ○ 신품<br>
-							무상 AS : ○ 불가 ○ 가능 (구입일자 00년 00월  00일)<br>
-							배송방법 : 택배발송<br>
-							배송요금 : ○ 판매자부담 ○ 구매자부탐 (예상요금 : 5,000원)
-						</td>
-					</tr>
-					<tr>
-						<td class="b_t_l">
-							판매자ID : ASUS<br>
-							이름 : 아서스<br>
-							가입일 : 2012년 4월 25일<br>
-							판매자등급 : 골드등급 <img class="" alt="골드등급" src="/images/grade_gold.gif">
-						</td>
-					</tr>
-					<tr>
-						<td class="b_t_l">
-							<table>
-								<colgroup>
-									<col width="150px">
-									<col width="120px">
-									<col width="170px">
-								</colgroup>
-								<tbody>
-									<tr>
-										<td>신용카드로 구매</td>
-										<td>\ 676,000원</td>
-										<td rowspan=5><img class="" alt="세이프컴스구매" src="/images/btn/btn_safecoms_order.gif" onclick="location.href='/safecoms/product/productSafeBuy'"></td>
-									</tr>
-									<tr>
-										<td>실시간 계좌이체로 구매</td>
-										<td>\ 663,000원</td>
-									</tr>
-									<tr>
-										<td>무통장 입금으로 구매</td>
-										<td>\ 650,000원</td>
-									</tr>
-									<tr>
-										<td>적립금으로 구매</td>
-										<td>\ 650,000원</td>
-									</tr>
-									<tr>
-										<td colspan=2>*적립금이 있을 경우 삭감 후 총 금액을 표기</td>
-									</tr>
-								</tbody>
-							</table>
+							판매가격 : <strong style="color:blue;">650,000원</strong><br>
+							상품등록일 : 2013.01.08<br>
+							거래지역 : 서울<br>
+							판매수량 : <strong style="color:blue;">1개</strong><br>
+							상품상태 : 중고 / 미개봉 / 새상품<br><br>
+							무상 AS 유무: 유상 / 무상 (&nbsp;&nbsp;개월)<br>
+							거래방식 : 직거래 / 안전거래 (안전거래시 택배표시 및 결제방식에따른 가격 미리보기 및 안전거래구매버튼)<br>
+							<div class="prod_view_btns">
+								<img src="/images/main_salepage_notice.gif">
+								<input type="button" class="prod_view_btn1" alt="관심상품">
+								<input type="button" class="prod_view_btn2" alt="신고하기">
+								<input type="button" class="prod_view_btn3" alt="안전거래 전환요청">
+							</div>
 						</td>
 					</tr>
 				</tbody>

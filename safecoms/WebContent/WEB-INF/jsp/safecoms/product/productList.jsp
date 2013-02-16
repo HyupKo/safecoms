@@ -9,7 +9,7 @@
 <body>
 <div id="wrap">
 	<div class="content">
-		<p class="mL5">▶ 상품 목록</p>
+		<p class="mL5"><img src="/images/main_salelist_name.gif"></p>
 		<div class="prod_search">
 			<div>
 				카테고리
