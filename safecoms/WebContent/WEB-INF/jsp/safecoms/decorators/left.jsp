@@ -63,6 +63,7 @@
 			<li><input type="button" class="left_sub_btn7" alt="사기피해사례"></li>
 		</ul>
 	</div>
+	
 	<div class="snb_bottom">
 		<input type="button" class="left_guide" alt="초보자가이드">
 		<img class="left_cheat">
