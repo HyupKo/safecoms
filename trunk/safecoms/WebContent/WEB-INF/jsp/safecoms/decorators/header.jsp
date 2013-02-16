@@ -2,7 +2,7 @@
     pageEncoding="EUC-KR"%>
 <div class="gnb">
 	<div class="gnb_main">
-		<img class="mainImg" alt="세이프 컴스" src="/images/top_logo.gif" onclick="location.href='/safecoms/index'">
+		<input type="button" class="mainImg" title="세이프 컴스" onclick="location.href='/safecoms/index'">
 		
 		<select class="selheader mL10" name="selProdSearch">
 			<option value="">상품검색</option>

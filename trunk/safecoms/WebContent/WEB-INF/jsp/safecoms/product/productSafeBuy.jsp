@@ -10,17 +10,73 @@
 <div id="wrap">
 	<form action="">
 	<div class="content">
-		<p class="mL5">▶ 구매 전 꼭 확인하세요 !</p>
-		
+		<p class="mL5"><img src="/images/main_buypage_name.gif"></p>
+		<p class="mL10 mT10"><img src="/images/main_buypage_notice1.gif"></p>
 		<div class="prod_buy_header">
 			<p><strong>세이프컴스</strong>에 등록된 상품의 정보는 판매자가 직접 등록한 것으로 <strong>세이프컴스</strong>는 중개만 제공하여 드립니다.</p>
 			<p><span class="red">판매 상품에 대한 일체의 책임을 지지 않습니다.</span> 구매전 상품에 대한 확인을 꼭 하시고 결정하여 주세요.</p>
 			<p><span class="blue">상품에 대한 주문, 배송, 교환, 환불의 책임은 해당 판매자에게 있습니다.</span></p>
 		</div>
 			
-		<div class="prod_buy">	
+		<div class="prod_buy">
 			<div class="prod_buy_form">
-				<p class="title"><strong>주문자 정보</strong></p>
+				<p class="title"><img src="/images/main_buypage_item.gif"></p>
+				<table border=1>
+					<colgroup>
+						<col width="330">
+						<col width="60">
+						<col width="80">
+						<col width="80">
+						<col width="60">
+						<col width="60">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>
+								상품명
+							</td>
+							<td>
+								수량
+							</td>
+							<td>
+								판매가격
+							</td>
+							<td>
+								거래방식
+							</td>
+							<td>
+								배송방식
+							</td>
+							<td>
+								배송비
+							</td>
+						</tr>
+						<tr>
+							<td>
+								ASUS 지포스 GTX680 ENGTX680 D5 2GB
+							</td>
+							<td>
+								1EA
+							</td>
+							<td>
+								650,000
+							</td>
+							<td>
+								안전거래
+							</td>
+							<td>
+								택배
+							</td>
+							<td>
+								선불
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="prod_buy_form">
+				<p class="title"><img src="/images/main_buypage_info.gif"></p>
 				<table>
 					<colgroup>
 						<col width="15%">
@@ -134,7 +190,7 @@
 			</div>
 			
 			<div class="prod_buy_form">
-				<p class="title"><strong>결제방식</strong></p>
+				<p class="title"><img src="/images/main_buypage_price.gif"></p>
 				<table>
 					<colgroup>
 						<col width="30%">
