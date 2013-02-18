@@ -100,6 +100,15 @@ $(document).ready(function() {
 				</colgroup>
 				<tbody>
 					<tr>
+						<td>판매방식</td>
+						<td>
+							<select>
+								<option>안전거래</option>
+								<option>직거래</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
 						<td>상품명</td>
 						<td>
 							<input type="text" class="w500" name="" value="">
@@ -109,23 +118,6 @@ $(document).ready(function() {
 						<td>판매금액</td>
 						<td>
 							<input type="text" class="w100 taR pR5" name="" value=""> 원 <span class="fee_preview">수수료미리보기</span>
-						</td>
-					</tr>
-					<tr>
-						<td>판매지역</td>
-						<td>
-							<select>
-								<option value="">서울</option>
-							</select>
-							시/도
-							<select>
-								<option value="">용산</option>
-							</select>
-							구/군
-							<select>
-								<option value="">한강로2가</option>
-							</select>
-							동/번지
 						</td>
 					</tr>
 					<tr>
@@ -147,9 +139,27 @@ $(document).ready(function() {
 						</td>
 					</tr>
 					<tr>
+						<td>판매지역</td>
+						<td>
+							<select>
+								<option value="">서울</option>
+							</select>
+							시/도
+							<select>
+								<option value="">용산</option>
+							</select>
+							구/군
+							<select>
+								<option value="">한강로2가</option>
+							</select>
+							동/번지
+						</td>
+					</tr>
+					<tr>
 						<td>운송비 부담</td>
 						<td>
 							<select>
+								<option value="">직거래</option>
 								<option value="">구매자</option>
 								<option value="">판매자</option>
 							</select>
@@ -193,6 +203,12 @@ $(document).ready(function() {
 								<option>가능</option>
 								<option>불가능</option>
 							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>상품관련 검색키워드</td>
+						<td>
+							<input type="text" class="w500" name="" value="">
 						</td>
 					</tr>
 				</tbody>

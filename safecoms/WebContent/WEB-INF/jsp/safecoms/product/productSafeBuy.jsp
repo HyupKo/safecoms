@@ -21,14 +21,14 @@
 		<div class="prod_buy">
 			<div class="prod_buy_form">
 				<p class="title"><img src="/images/main_buypage_item.gif"></p>
-				<table border=1>
+				<table class="prod_buy_info_table" border=1>
 					<colgroup>
-						<col width="330">
-						<col width="60">
-						<col width="80">
-						<col width="80">
-						<col width="60">
-						<col width="60">
+						<col width="51%">
+						<col width="9%">
+						<col width="11%">
+						<col width="11%">
+						<col width="9%">
+						<col width="9%">
 					</colgroup>
 					<tbody>
 						<tr>
