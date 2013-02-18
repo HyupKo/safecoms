@@ -65,7 +65,7 @@
 						<th>카드결제</th>
 						<th>택배(예상금액)</th>
 						<th>판매자등급</th>
-						<th>조회수</th>
+						<th>등록일</th>
 					</tr>
 				</thead>
 				<tbody align="center">
@@ -92,7 +92,7 @@
 							crossfire<img class="" alt="새싹" src="/images/grade_new.gif">
 						</td>
 						<td>
-							15
+							2013.02.18 12:01:25
 						</td>
 					</tr>
 					<!-- 리스트 끝 -->
@@ -118,7 +118,7 @@
 							aaaa<img class="" alt="골든" src="/images/grade_gold.gif">
 						</td>
 						<td>
-							15
+							2013.02.18 12:01:25
 						</td>
 					</tr>
 				</tbody>

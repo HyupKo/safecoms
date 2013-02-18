@@ -72,7 +72,7 @@
 							거래방식 : 직거래 / 안전거래 (안전거래시 택배표시 및 결제방식에따른 가격 미리보기 및 안전거래구매버튼)<br>
 							<div class="prod_view_btns">
 								<img src="/images/main_salepage_notice.gif">
-								<input type="button" class="prod_view_btn1" alt="관심상품">
+								<input type="button" class="prod_view_btn1" alt="관심상품" onclick="location.href='productSafeBuy.jsp'">
 								<input type="button" class="prod_view_btn2" alt="신고하기">
 								<input type="button" class="prod_view_btn3" alt="안전거래 전환요청">
 							</div>
