@@ -226,7 +226,7 @@
 /* block scroll css. */
 
 /* 게시판 List */
-.board_list {position:relative; left:50%; width:900px; overflow: hidden; margin-left:-450px;}
+.board_list {position:relative; width:730px; overflow: hidden;}
 
 .board_top {width: 100%; font-weight: bold; position:relative; margin-bottom:30px;}
 .board_nav_title {float:left}
