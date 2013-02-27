@@ -35,22 +35,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class CommunityController {
 	
-	@RequestMapping("/safecoms/community/boardList")
+	@RequestMapping("/safecoms/community/communityList")
 	public String boardList(HttpServletRequest request, HttpServletResponse response) {
-		return "/safecoms/community/boardList";
+		return "/safecoms/community/communityList";
 	}
 	
-	@RequestMapping("/safecoms/community/boardModify")
+	@RequestMapping("/safecoms/community/communityModify")
 	public String boardModify(HttpServletRequest request, HttpServletResponse response) {
-		return "/safecoms/community/boardModify";
+		return "/safecoms/community/communityModify";
 	}
 	
-	@RequestMapping("/safecoms/community/boardView")
+	@RequestMapping("/safecoms/community/communityView")
 	public String boardView(HttpServletRequest request, HttpServletResponse response) {
-		return "/safecoms/community/boardView";
+		return "/safecoms/community/communityView";
 	}
-	@RequestMapping("/safecoms/community/boardWrite")
+	@RequestMapping("/safecoms/community/communityWrite")
 	public String boardWrite(HttpServletRequest request, HttpServletResponse response) {
-		return "/safecoms/community/boardWrite";
+		return "/safecoms/community/communityWrite";
 	}
 }
