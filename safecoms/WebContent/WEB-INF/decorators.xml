@@ -3,6 +3,9 @@
 	<decorator name="_main" page="/WEB-INF/jsp/safecoms/decorators/main.jsp">
 		<pattern>/*</pattern>
 	</decorator>
+	<excludes>
+		<pattern>/WEB-INF/jsp/safecoms/process/*</pattern>
+	</excludes>
 	<decorator name="_header" page="/WEB-INF/jsp/safecoms/decorators/header.jsp" />
 	<decorator name="_navigation" page="/WEB-INF/jsp/safecoms/decorators/left.jsp" />
 	<decorator name="_footer" page="/WEB-INF/jsp/safecoms/decorators/footer.jsp" />
