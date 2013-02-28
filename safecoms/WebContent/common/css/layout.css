@@ -69,7 +69,15 @@
 .content {width: 760px; float: left; margin-top:10px; margin-bottom:10px}
 
 .banner {width:760px;margin: 0 0 10px 10px;float: left}
-.index_category {width:760px;margin: 0 0 10px 10px;float: left}
+.index_category {width:760px; margin: 0 0 10px 10px; float: left/* ; background: url("/images/"); */}
+.index_category .cate2 {margin: 3px}
+.cate2 {list-style-type: none}
+.cate2 div {display: inline}
+.cate2_li {display: inline; float: left; margin-right: 5px}
+.title_block {background-color: #EDF1D8; padding-left: 3px; width: 140px; height: 18px; text-align: center; color: green; font-weight: bold; padding-top: 3px; display: block}
+.all_prod_list {margin: 3px 0 0 2px}
+.all_prod_list li {padding: 2px}
+
 .idx_cate_list {width: 129px; height: 18px;float: left}
 
 .content_banner {float: left}
