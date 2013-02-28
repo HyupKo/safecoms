@@ -68,7 +68,113 @@
 				</li>
 			</ul>
 		</div>
-
+		
+		<div class="index_category2">
+			<div class="floatL">
+				<img class="cate1" alt="오늘의 신규등록상품" src="/images/main_new5.gif">
+			</div>
+			<div class="floatR pT10 pR10">
+				<img alt="더보기" src="/images/btn/main_mypage_more.gif">
+			</div>
+			
+			<table class="floatL mT20" border="1">
+				<colgroup>
+					<col width="11%">
+					<col width="27%">
+					<col width="9%">
+					<col width="6%">
+					<col width="11%">
+					<col width="27%">
+					<col width="9%">
+				</colgroup>
+				<tbody>
+					<tr>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">안전거래</span>
+						</td>
+						<td><!-- blank td --></td>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">직거래</span>
+						</td>
+					</tr>
+					<tr>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">직거래</span>
+						</td>
+						<td><!-- blank td --></td>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">안전거래</span>
+						</td>
+					</tr>
+					<tr>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">안전거래</span>
+						</td>
+						<td><!-- blank td --></td>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">직거래</span>
+						</td>
+					</tr>
+					<tr>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">안전거래</span>
+						</td>
+						<td><!-- blank td --></td>
+						<td><img alt="imgTitle" src=""></td>
+						<td>
+							<p>MSI 지포스 9600GT N9600G ...</p>
+							<p class="red">판매가 : 28,000원</p>
+							<p>판매자 : 리퍼비시</p>
+						</td>
+						<td>
+							<span class="safeDeal">직거래</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </body>
 </html>
