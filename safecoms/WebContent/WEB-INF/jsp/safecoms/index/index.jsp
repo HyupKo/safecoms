@@ -76,7 +76,7 @@
 			<div class="floatR pT10 pR10">
 				<img alt="´õº¸±â" src="/images/btn/main_mypage_more.gif">
 			</div>
-			<div class="floatL">
+			<div class="floatL clear_both">
 				<table class="floatL mT20" border="1">
 					<colgroup>
 						<col width="11%">
