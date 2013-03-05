@@ -47,7 +47,7 @@
 	
 	<div class="mypage_navigations">
 		<ul>
-			<li class="mypage_blue"><a onclick="">마이페이지 메인</a></li>
+			<li class="select_blue"><a onclick="">마이페이지 메인</a></li>
 			<li><a onclick="">구매관련</a></li>
 			<li><a onclick="">판매관련</a></li>
 			<li><a onclick="">거래완료</a></li>

@@ -57,8 +57,8 @@
 	</div>
 	<div class="board_list_btns">
 		<ul>
-		<li onclick="location.href='boardList.jsp'">등록</li>
-		<li onclick="location.href='boardList.jsp'">취소</li>
+		<li onclick="location.href='list.jsp'">등록</li>
+		<li onclick="location.href='list.jsp'">취소</li>
 		</ul>
 	</div>
 </div>

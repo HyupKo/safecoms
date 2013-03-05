@@ -9,7 +9,7 @@ public class MyPage {
 	
 	@RequestMapping(value="")
 	public String index() {
-		return "/safecoms/mypage/index";
+		return "/safecoms/mypage/mypageIndex";
 	}
 
 }

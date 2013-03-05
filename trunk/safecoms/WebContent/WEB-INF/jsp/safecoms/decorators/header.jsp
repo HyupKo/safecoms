@@ -15,8 +15,8 @@
 			<li><input type="button" class="head_btn1" title="상품등록"></li>
 			<li><input type="button" class="head_btn2" title="판매상품목록"></li>
 			<li><input type="button" class="head_btn3" title="삽니다"></li>
-			<li><input type="button" class="head_btn4" title="마이페이지" onclick="window.location.href='/safecoms/mypage';"></li>
-			<li><input type="button" class="head_btn5" title="커뮤니티"></li>
+			<li><input type="button" class="head_btn4" title="마이페이지" onclick="window.location.href='/safecoms/mypage/index';"></li>
+			<li><input type="button" class="head_btn5" title="커뮤니티" onclick="window.location.href='/safecoms/community/index';"></li>
 		</ul>
 	</div>
 </div>
