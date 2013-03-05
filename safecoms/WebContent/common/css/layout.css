@@ -283,7 +283,6 @@
 .board_write_table li { list-style:none;}
 /* //게시판 Write */
 
-
 /* 마이페이지 */
 .mypage_user_info {border: 1px solid gray; width: 700px; height: 70px; margin: 10px 0 10px 10px}
 .mypage_user_info span {padding: 13px 10px 10px}
@@ -301,5 +300,32 @@
 .mypage_sub_title {width: 600px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 5px; margin-left: 65px}
 .mypage_sub_title span {padding: 0 10px; font-size: 15px; font-weight: bold; color: gray}
 .mypage_sub_content {width: 600px; height: 120px; margin: 10px 0 0 65px}
-
 /* //마이페이지 */
+
+/* 커뮤니티 */
+.community_user_info {border: 1px solid gray; width: 700px; height: 70px; margin: 10px 0 10px 10px}
+.community_user_info span {padding: 13px 10px 10px}
+.community_user_info table {margin: 13px 10px 10px; width: 400px}
+.community_user_info table tbody {text-align: center}
+.community_user_info table td {padding-top: 10px}
+
+.community_navigation_text {margin: 15px 10px}
+
+.community_navigations {margin-top: 15px; width: 730px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 5px}
+.community_navigations ul li {display: inline; padding-left: 35px; font-size: 15px; font-weight: bold; color: gray}
+.community_navigations ul li:FIRST-CHILD {display: inline; padding-left: 20px; font-size: 15px; font-weight: bold; color: gray}
+
+.community_sub_navigation {margin-top: 30px}
+.community_sub_title {width: 350px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 5px}
+.community_sub_title2 {width: 350px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 5px}
+.community_sub_title span {padding: 0 10px; font-size: 15px; font-weight: bold; color: gray}
+.community_sub_title2 span {padding: 0 10px; font-size: 15px; font-weight: bold; color: gray}
+.community_sub_content {width: 350px; height: 120px; margin: 10px 0}
+.community_sub_content li {padding: 3px 0}
+.community_left_menu {float: left}
+.community_right_menu {float: right; margin-right: 30px}
+
+.community_content_title {width: 250px}
+.community_content_date {width: 50px; float: right}
+/* //커뮤니티 */
+

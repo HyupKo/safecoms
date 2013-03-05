@@ -46,28 +46,28 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='boardView.jsp'">
+				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='view.jsp'">
 					<td>1,225</td>
 					<td class="tdTitle">이상한 게시판 with CSS, DIV</td>
 					<td>이이름(id)</td>
 					<td>2013-02-19</td>
 					<td>5</td>
 				</tr>
-				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='boardView.jsp'">
+				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='view.jsp'">
 					<td>4</td>
 					<td class="tdTitle">이상한 게시판 with CSS, DIV</td>
 					<td>이이름(id)</td>
 					<td>2013-02-19</td>
 					<td>5</td>
 				</tr>
-				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='boardView.jsp'">
+				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='view.jsp'">
 					<td>3</td>
 					<td class="tdTitle">이상한 게시판 with CSS, DIV</td>
 					<td>이이름(id)</td>
 					<td>2013-02-19</td>
 					<td>5</td>
 				</tr>
-				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='boardView.jsp'">
+				<tr onmouseover="this.className='board_list_over'" onmouseout="this.className='board_list_out'" onclick="location.href='view.jsp'">
 					<td>2</td>
 					<td class="tdTitle">이상한 게시판 with CSS, DIV</td>
 					<td>이이름(id)</td>
@@ -97,12 +97,12 @@
 			<li>8</li>
 			<li>9</li>
 			<li>10</li>
-			<li>></li>
+			<li>&gt;</li>
 		</ul>
 	</div>
 	<div class="board_list_btns">
 		<ul>
-		<li onclick="location.href='boardWrite.jsp'">글쓰기</li>
+		<li onclick="location.href='write.jsp'">글쓰기</li>
 		</ul>
 	</div>
 </div>

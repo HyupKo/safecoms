@@ -33,23 +33,30 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+@RequestMapping("/safecoms/community")
 public class CommunityController {
 	
-	@RequestMapping("/safecoms/community/communityList")
+	@RequestMapping("/index")
+	public String index(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/community/communityIndex";
+	}
+	
+	@RequestMapping("/list")
 	public String boardList(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/community/communityList";
 	}
 	
-	@RequestMapping("/safecoms/community/communityModify")
+	@RequestMapping("/modify")
 	public String boardModify(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/community/communityModify";
 	}
 	
-	@RequestMapping("/safecoms/community/communityView")
+	@RequestMapping("/view")
 	public String boardView(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/community/communityView";
 	}
-	@RequestMapping("/safecoms/community/communityWrite")
+	
+	@RequestMapping("/write")
 	public String boardWrite(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/community/communityWrite";
 	}

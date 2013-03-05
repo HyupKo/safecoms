@@ -27,19 +27,19 @@
 	</div>
 	<div class="board_view_footer">
 		<div class="board_view_list">
-			<div class="board_head_title" style="width:5%">윗글</div> <div class="board_head_info" onclick="location.href='boardView.jsp'" style="cursor:pointer;">콜옵션부 채권 가격 송출중단 공지</div>
+			<div class="board_head_title" style="width:5%">윗글</div> <div class="board_head_info" onclick="location.href='view.jsp'" style="cursor:pointer;">콜옵션부 채권 가격 송출중단 공지</div>
 		</div>
 		<div class="board_view_list">
-			<div class="board_head_title" style="width:5%;">아랫글</div> <div class="board_head_info" onclick="location.href='boardView.jsp'" style="cursor:pointer;">콜옵션부 채권 가격 송출중단 공지</div>
+			<div class="board_head_title" style="width:5%;">아랫글</div> <div class="board_head_info" onclick="location.href='view.jsp'" style="cursor:pointer;">콜옵션부 채권 가격 송출중단 공지</div>
 		</div>
 	</div>
 	<div class="board_list_btns">
 		<ul>
-		<li onclick="location.href='boardList.jsp'">글쓰기</li>
-		<li onclick="location.href='boardList.jsp'">댓글</li>
-		<li onclick="location.href='boardModify.jsp'">수정</li>
-		<li onclick="location.href='boardList.jsp'">삭제</li>
-		<li onclick="location.href='boardList.jsp'">목록</li>
+		<li onclick="location.href='list.jsp'">글쓰기</li>
+		<li onclick="location.href='list.jsp'">댓글</li>
+		<li onclick="location.href='modify.jsp'">수정</li>
+		<li onclick="location.href='list.jsp'">삭제</li>
+		<li onclick="location.href='list.jsp'">목록</li>
 		</ul>
 	</div>
 </div>

@@ -62,9 +62,9 @@
 	</div>
 	<div class="board_list_btns">
 		<ul>
-		<li onclick="location.href='boardView.jsp'">수정</li>
-		<li onclick="location.href='boardList.jsp'">삭제</li>
-		<li onclick="location.href='boardView.jsp'">취소</li>
+		<li onclick="location.href='view.jsp'">수정</li>
+		<li onclick="location.href='list.jsp'">삭제</li>
+		<li onclick="location.href='view.jsp'">취소</li>
 		</ul>
 	</div>
 </div>
