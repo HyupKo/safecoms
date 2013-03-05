@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/safecoms/mypage")
 public class MyPage {
 	
-	@RequestMapping(value="")
+	@RequestMapping(value="/index")
 	public String index() {
 		return "/safecoms/mypage/mypageIndex";
 	}
