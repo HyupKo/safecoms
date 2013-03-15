@@ -300,6 +300,22 @@
 .mypage_sub_title {width: 600px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 5px; margin-left: 65px}
 .mypage_sub_title span {padding: 0 10px; font-size: 15px; font-weight: bold; color: gray}
 .mypage_sub_content {width: 600px; height: 120px; margin: 10px 0 0 65px}
+
+/* 구매, 판매 관련 */
+.mypage_buy_search_term {border: 1px solid black; width: 500px; height: 25px}
+.mypage_buy_search_term td:FIRST-CHILD {text-align: center}
+.mypage_buy_search_term td {text-align: center; border-left: 1px solid black}
+.mypage_buy_search_term td.selected {color: #1e497d}
+.mypage_buy_day_term {margin-top: 5px}
+
+.mypage_buy_table_div {width: 730px; margin-top: 10px}
+.mypage_buy_select {border: 1px solid black; border-bottom: 0px; float: right; clear: left; width: 170px; padding-left: 15px}
+.mypage_buy_table {float: left; width: 730px}
+.mypage_buy_table th {border-top: 2px solid black; border-bottom: 2px solid black; padding: 3px; background-color: #f6f6f6}
+.mypage_buy_table td {border-bottom: 1px solid black; padding: 10px; text-align: center}
+.mypage_buy_more {float: left; margin: 30px 0 20px 330px}
+.mypage_buy_more_button {width: 200px; background-color: #f6f6f6; border: 1px solid black; padding: 5px 10px}
+/* //구매, 판매 관련 */
 /* //마이페이지 */
 
 /* 커뮤니티 */

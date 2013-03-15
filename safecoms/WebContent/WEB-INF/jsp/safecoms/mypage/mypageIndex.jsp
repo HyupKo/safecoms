@@ -48,10 +48,10 @@
 	<div class="mypage_navigations">
 		<ul>
 			<li class="select_blue"><a onclick="">마이페이지 메인</a></li>
-			<li><a onclick="">구매관련</a></li>
-			<li><a onclick="">판매관련</a></li>
-			<li><a onclick="">거래완료</a></li>
-			<li><a onclick="">지급보류중</a></li>
+			<li><a href="/safecoms/mypage/buy">구매관련</a></li>
+			<li><a href="/safecoms/mypage/sell">판매관련</a></li>
+			<li><a href="/safecoms/mypage/complete">거래완료</a></li>
+			<li><a href="/safecoms/mypage/wait">지급보류중</a></li>
 			<li><a onclick="">내 정보 수정</a></li>
 		</ul>
 	</div>
