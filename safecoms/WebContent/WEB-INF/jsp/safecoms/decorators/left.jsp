@@ -49,18 +49,18 @@
 		<ul class="snb_btns">
 			<li><input type="button" class="left_btn1" alt="판매상품등록" onclick="location.href='/safecoms/product/productEntry'"></li>
 			<li><input type="button" class="left_btn2" alt="전체판매상품목록" onclick="location.href='/safecoms/product/productList'"></li>
-			<li><input type="button" class="left_btn3" alt="삽니다"></li>
-			<li><input type="button" class="left_btn4" alt="마이페이지"></li>
-			<li><input type="button" class="left_btn5" alt="커뮤니티"></li>
+			<li><input type="button" class="left_btn3" alt="삽니다" onclick="location.href='/safecoms/product/productSellList';"></li>
+			<li><input type="button" class="left_btn4" alt="마이페이지" onclick="location.href='/safecoms/mypage/index';"></li>
+			<li><input type="button" class="left_btn5" alt="커뮤니티" onclick="location.href='/safecoms/community/index';"></li>
 		</ul>
 		<ul class="snb_menus">
-			<li><input type="button" class="left_sub_btn1" alt="공지사항"></li>
-			<li><input type="button" class="left_sub_btn2" alt="자주묻는질문"></li>
-			<li><input type="button" class="left_sub_btn3" alt="질문&답변"></li>
-			<li><input type="button" class="left_sub_btn4" alt="1:1문의"></li>
-			<li><input type="button" class="left_sub_btn5" alt="자유게시판"></li>
-			<li><input type="button" class="left_sub_btn6" alt="불량회원신고"></li>
-			<li><input type="button" class="left_sub_btn7" alt="사기피해사례"></li>
+			<li><input type="button" class="left_sub_btn1" alt="공지사항" onclick="location.href='/safecoms/community/list'"></li>
+			<li><input type="button" class="left_sub_btn2" alt="자주묻는질문" onclick="location.href='/safecoms/community/list'"></li>
+			<li><input type="button" class="left_sub_btn3" alt="질문&답변" onclick="location.href='/safecoms/community/list'"></li>
+			<li><input type="button" class="left_sub_btn4" alt="1:1문의" onclick="location.href='/safecoms/community/list'"></li>
+			<li><input type="button" class="left_sub_btn5" alt="자유게시판" onclick="location.href='/safecoms/community/list'"></li>
+			<li><input type="button" class="left_sub_btn6" alt="불량회원신고" onclick="location.href='/safecoms/community/list'"></li>
+			<li><input type="button" class="left_sub_btn7" alt="사기피해사례" onclick="location.href='/safecoms/community/list'"></li>
 		</ul>
 	</div>
 	
