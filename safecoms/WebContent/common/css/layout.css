@@ -243,17 +243,15 @@
 .board_nav_title {float:left}
 .board_nav {float:right;}
 
-.board_contents { width: 100%; }
+.board_contents { width: 750px; }
 
-.board_list_top {width: 100%; font-weight: bold}
-.board_list_search {text-align: right;height: 30px;}
+.board_list_top {margin-top: 15px; width: 730px; font-weight: bold}
+.board_list_search {width: 730px; text-align: right;height: 30px;}
 .board_list_search li {display:inline; list-style:none;}
 
 .board_list_table { width: 100%; border-collapse:collapse;border-spacing:0;}
-.board_list_table thead {background:#80ace9; color:#ffffff; }
+.board_list_table thead {background:#c8f0c8;}
 .board_list_table thead th { height:20px; text-align: center; padding: 3px 0; }
-.board_list_table thead th:first-child {-webkit-border-radius:10px 0 0 10px; -moz-border-radius:10px 0 0 10px; border-radius:10px 0 0 10px; }
-.board_list_table thead th:last-child {-webkit-border-radius:0 10px 10px 0; -moz-border-radius:0 10px 10px 0; border-radius:0 10px 10px 0; }
 .board_list_table tbody tr { cursor:pointer;}
 .board_list_table tbody td { text-align: center;  border-bottom: 1px solid #e5e5e5;  padding:3px 0}
 .board_list_table tbody .tdTitle { text-align: left; padding-left:10px;}
