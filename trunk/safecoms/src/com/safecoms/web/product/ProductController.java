@@ -36,4 +36,19 @@ public class ProductController {
 	public String productSafeBuy(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/product/productSafeBuy";
 	}
+	
+	@RequestMapping(value="/safecoms/product/productSellList")
+	public String productSellList(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/product/productSellList";
+	}
+	
+	@RequestMapping(value="/safecoms/product/productSellWrite")
+	public String productSellWrite(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/product/productSellWrite";
+	}
+	
+	@RequestMapping(value="/safecoms/product/productSellView")
+	public String productSellView(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/product/productSellView";
+	}
 }
