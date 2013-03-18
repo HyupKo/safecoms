@@ -27,12 +27,8 @@
 					<li onclick="location.href='/admin/clientInfo'">정보조회</li>
 				</ul>
 				<ul class="snb_btns" id="s5" style="display:none;">
-					<li onclick="location.href='/admin/boardManager'">공지사항</li>
-					<li onclick="location.href='/admin/boardManager'">자유게시판</li>
-					<li onclick="location.href='/admin/boardManager'">질문&답변</li>
-					<li onclick="location.href='/admin/boardManager'">자주묻는질문</li>
-					<li onclick="location.href='/admin/boardManager'">1:1문의</li>
-					<li onclick="location.href='/admin/boardManager'">삭제 글/덧글 보기(복원)</li>
+					<li onclick="location.href='/admin/boardManager'">게시판관리</li>
+					<li onclick="location.href='/admin/boardDelManager'">삭제 글/덧글 보기(복원)</li>
 				</ul>
 				<ul class="snb_btns" id="s6" style="display:none;">
 					<li onclick="location.href='/admin/siteDesign'">디자인관리</li>
