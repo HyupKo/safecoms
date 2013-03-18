@@ -43,6 +43,7 @@
 		<url-pattern>/interface/*</url-pattern>
 		<url-pattern>/dwr/*</url-pattern>
 		<url-pattern>/safecoms/*</url-pattern>
+		<url-pattern>/admin/*</url-pattern>
 	</servlet-mapping>
 
 	<!-- sitemash filter -->
