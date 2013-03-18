@@ -30,6 +30,11 @@ public class AdminController {
 		return "/safecoms/admin/boardManager";
 	}
 	
+	@RequestMapping("/boardDelManager")
+	public String boardDelManager(HttpServletRequest request, HttpServletResponse response) {
+		return "/safecoms/admin/boardDelManager";
+	}
+	
 	@RequestMapping("/clientInfo")
 	public String clientInfo(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/admin/clientInfo";
