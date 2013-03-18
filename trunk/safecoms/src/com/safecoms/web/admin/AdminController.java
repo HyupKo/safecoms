@@ -36,8 +36,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/safecoms/admin")
 public class AdminController {
 	
-	@RequestMapping("/adminIndex")
-	public String adminIndex(HttpServletRequest request, HttpServletResponse response) {
+	@RequestMapping("/index")
+	public String index(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/admin/adminIndex";
 	}
 }
