@@ -71,11 +71,11 @@ function viewSub(ids){
 					<li>1:1문의</li>
 					<li>삭제 글/덧글 보기(복원)</li>
 				</ul>
-				<ul class="snb_btns" id="s5" style="display:none;">
+				<ul class="snb_btns" id="s6" style="display:none;">
 					<li>디자인관리</li>
 					<li>카테고리관리</li>
 				</ul>
-				<ul class="snb_btns" id="s5" style="display:none;">
+				<ul class="snb_btns" id="s7" style="display:none;">
 					<li>접속통계</li>
 					<li>거래통계</li>
 					<li>매물등록통계</li>
