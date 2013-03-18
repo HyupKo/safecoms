@@ -30,7 +30,7 @@
 	<!-- viewResolver 설정. -->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-		p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" p:contentType="text/html; charset=EUC-KR"
+		p:prefix="/WEB-INF/jsp" p:suffix=".jsp" p:contentType="text/html; charset=EUC-KR"
 		p:order="1" />
 	
 	<!-- DB 관련 Properties 선언. -->
