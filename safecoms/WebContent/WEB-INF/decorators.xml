@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="EUC-KR"?>
 <decorators defaultdir="/decorators">
-	<decorator name="_Amain" page="/WEB-INF/jsp/safecoms/decorators/adminMain.jsp">
-		<pattern>/admin/*</pattern>
-	</decorator>
 	<decorator name="_main" page="/WEB-INF/jsp/safecoms/decorators/main.jsp">
-		<pattern>/safecoms/*</pattern>
+		<pattern>/safecoms</pattern>
 	</decorator>
+	
+	<decorator name="_Amain" page="/WEB-INF/jsp/safecoms/decorators/adminMain.jsp">
+		<pattern>/admin</pattern>
+	</decorator>
+	
 	<excludes>
-		<pattern>/safecoms/process/*</pattern>
-		<!-- <pattern>/safecoms/admin/*</pattern> -->
+		<pattern>/WEB-INF/jsp/safecoms/process/*</pattern>
 	</excludes>
+	
 	<decorator name="_header" page="/WEB-INF/jsp/safecoms/decorators/header.jsp" />
 	<decorator name="_navigation" page="/WEB-INF/jsp/safecoms/decorators/left.jsp" />
 	<decorator name="_footer" page="/WEB-INF/jsp/safecoms/decorators/footer.jsp" />
