@@ -10,7 +10,7 @@
 			<li onclick="viewSub('s3');">대금관리</li>
 			<li onclick="viewSub('s4');">고객관리</li>
 			<li onclick="viewSub('s5');">커뮤니티</li>
-			<li onclick="location.href=''">신고관리</li>
+			<li onclick="location.href='/admin/notifyManager'">신고관리</li>
 			<li onclick="viewSub('s6');">사이트관리</li>
 			<li onclick="viewSub('s7');">통계</li>
 		</ul>
