@@ -32,6 +32,8 @@ function viewSub(ids){
 					<li onclick="viewSub('s4');">고객관리</li>
 					<li onclick="viewSub('s5');">커뮤니티</li>
 					<li onclick="location.href='#'">신고관리</li>
+					<li onclick="viewSub('s6');">사이트관리</li>
+					<li onclick="viewSub('s7');">통계</li>
 				</ul>
 			</div>
 		</div>
@@ -68,6 +70,15 @@ function viewSub(ids){
 					<li>자주묻는질문</li>
 					<li>1:1문의</li>
 					<li>삭제 글/덧글 보기(복원)</li>
+				</ul>
+				<ul class="snb_btns" id="s5" style="display:none;">
+					<li>디자인관리</li>
+					<li>카테고리관리</li>
+				</ul>
+				<ul class="snb_btns" id="s5" style="display:none;">
+					<li>접속통계</li>
+					<li>거래통계</li>
+					<li>매물등록통계</li>
 				</ul>
 			</div>
 		</div>
