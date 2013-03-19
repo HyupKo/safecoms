@@ -52,7 +52,7 @@
 .left_guide {background: url("/images/category_guide.gif") no-repeat; width: 160px; height: 126px; margin-bottom: 5px}
 .left_cheat {background: url("/images/category_cheat7.gif") no-repeat; width: 160px; height: 143px}
 
-.bottom {margin-left: 185px; width:765px; float: left;vertical-align: bottom}
+.bottom {margin-left: 185px; margin-bottom:20px; width:765px; float: left;vertical-align: bottom}
 .bnb_main { height:40px; background: url("/images/main_bottombg.gif") repeat-x}
 .bnb_btns {margin-left:20px; vertical-align: middle}
 .bnb_btns li {display: inline; margin: 0 0 0 3px; padding:3px 40px 0 0}
