@@ -200,7 +200,7 @@
 						정보보기
 					</td>
 					<td>
-						<span class="select_blue">미도착 신고중</span><br>
+						<span class="blue bold">미도착 신고중</span><br>
 						<span class="red">배송사항 체크바랍니다.</span>
 					</td>
 				</tr>
@@ -219,7 +219,7 @@
 						정보보기
 					</td>
 					<td>
-						<span class="select_blue">배송완료</span><br>
+						<span class="blue bold">배송완료</span><br>
 						<span class="red">구매확정대기</span>
 					</td>
 				</tr>
@@ -238,7 +238,7 @@
 						정보보기
 					</td>
 					<td>
-						<span class="select_blue">거래완료</span><br>
+						<span class="blue bold">거래완료</span><br>
 						<span class="red bold">대금요청</span>
 					</td>
 				</tr>
