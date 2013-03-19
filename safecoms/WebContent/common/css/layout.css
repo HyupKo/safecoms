@@ -356,5 +356,12 @@
 .community_write_table td {height:20px}
 /* //커뮤니티 */
 
+
+/* 관리자 부분 */
 .marketWait_table { width:760px; margin-top:10px; }
 
+
+.border_manager_table {width: 650px; margin: 10px}
+.border_manager_table td {padding: 10px 5px}
+
+/* //관리자 부분 */
