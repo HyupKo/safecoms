@@ -4,38 +4,38 @@
 	<!-- 로그인 이전에 코드 -->
 	<div id="snb_before_login">
 		<table>
-		<colgroup>
-			<col width="50px">
-			<col width="75px">
-			<col width="25px">
-		</colgroup>
-		<tbody valign="top">
-			<tr>
-				<td colspan=3>
-					<img class="left_Img1" src="/images/login5.gif">
-				</td>
-			</tr>
-			<tr>
-				<th class="logId"><img alt="ID" src="/images/login6.gif"></th>
-				<td><input type="text" class="logInput" name="userId" tabindex="1"></td>
-				<td rowspan="2" valign=middle><input type="button" class="left_login_btn1" alt="로그인" tabindex="3"></td>
-			</tr>
-			<tr>
-				<th class="logId"><img alt="패스워드" src="/images/login8.gif"></th>
-				<td><input type="password" class="logInput" name="userPw" tabindex="2"></td>
-			</tr>
-			<tr>
-				<td colspan=3 align=left>
-					<input type="checkbox" name="cookieSaveId"> 아이디저장
-				</td>
-			</tr>
-			<tr>
-				<td colspan=3>
-					<input type="button" class="left_login_btn2" alt="회원가입" onclick="location.href='/safecoms/join/joinAgree'">
-					<input type="button" class="left_login_btn3" alt="ID/PW찾기">
-				</td>
-			</tr>
-		</tbody>
+			<colgroup>
+				<col width="50px">
+				<col width="75px">
+				<col width="25px">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td colspan=3>
+						<img class="left_Img1" src="/images/login5.gif">
+					</td>
+				</tr>
+				<tr>
+					<th class="logId"><img alt="ID" src="/images/login6.gif"></th>
+					<td><input type="text" class="logInput" name="userId" tabindex="1"></td>
+					<td rowspan="2" valign=middle><input type="button" class="left_login_btn1" alt="로그인" tabindex="3"></td>
+				</tr>
+				<tr>
+					<th class="logId"><img alt="패스워드" src="/images/login8.gif"></th>
+					<td><input type="password" class="logInput" name="userPw" tabindex="2"></td>
+				</tr>
+				<tr>
+					<td colspan=3 align=left>
+						<input type="checkbox" name="cookieSaveId"> 아이디저장
+					</td>
+				</tr>
+				<tr>
+					<td colspan=3>
+						<input type="button" class="left_login_btn2" alt="회원가입" onclick="location.href='/safecoms/join/joinAgree'">
+						<input type="button" class="left_login_btn3" alt="ID/PW찾기">
+					</td>
+				</tr>
+			</tbody>
 		</table>
 	</div>
 	

@@ -217,7 +217,7 @@
 						정보보기
 					</td>
 					<td>
-						<span class="select_blue">미도착 신고중</span><br>
+						<span class="blue bold">미도착 신고중</span><br>
 						<span class="red">미도착 신고해제</span>
 					</td>
 				</tr>
@@ -236,7 +236,7 @@
 						정보보기
 					</td>
 					<td>
-						<span class="select_blue">배송완료</span><br>
+						<span class="blue bold">배송완료</span><br>
 						<span class="red">구매확정 / 환불요청</span>
 					</td>
 				</tr>
@@ -255,7 +255,7 @@
 						정보보기
 					</td>
 					<td>
-						<span class="select_blue">환불요청 중</span><br>
+						<span class="blue bold">환불요청 중</span><br>
 						<span class="red">환불과정 안내</span>
 					</td>
 				</tr>

@@ -168,7 +168,7 @@
 					</td>
 					<td>
 						거래완료<br>
-						<span class="red">대금송금완료</span>
+						<span class="bold">대금송금완료</span>
 					</td>
 				</tr>
 				<tr>
@@ -187,7 +187,7 @@
 					</td>
 					<td>
 						거래완료<br>
-						<span class="red">대금송금완료</span>
+						<span class="bold">대금송금완료</span>
 					</td>
 				</tr>
 				<tr>
@@ -206,7 +206,7 @@
 					</td>
 					<td>
 						거래완료<br>
-						<span class="red">대금송금완료</span>
+						<span class="bold">대금송금완료</span>
 					</td>
 				</tr>
 				<tr>
@@ -225,7 +225,7 @@
 					</td>
 					<td>
 						거래완료<br>
-						<span class="red">대금송금완료</span>
+						<span class="bold">대금송금완료</span>
 					</td>
 				</tr>
 				<tr>
@@ -244,7 +244,7 @@
 					</td>
 					<td>
 						거래완료<br>
-						<span class="red">대금송금완료</span>
+						<span class="bold">대금송금완료</span>
 					</td>
 				</tr>
 			</tbody>

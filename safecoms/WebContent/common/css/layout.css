@@ -20,7 +20,7 @@
 
 .snb {width:190px; height:100%; float: left}
 
-#snb_before_login {background: url("/images/loginbg.gif") no-repeat; padding: 10px 5px 10px 5px; margin: 5px;text-align:center}
+#snb_before_login {background: url("/images/loginbg.gif") no-repeat; padding: 10px 20px 15px 5px; margin: 5px;text-align:center}
 .sub_login table {width: 150px; margin: 0px; padding: 0px}
 .left_Img1 {margin-bottom:6px}
 .logId {display: inline; font-size: 15px; font-weight: bold; font-family: "Dotum"}
@@ -340,8 +340,8 @@
 .community_navigations ul li:FIRST-CHILD {display: inline; padding-left: 20px; font-size: 15px; font-weight: bold; color: gray}
 
 .community_sub_navigation {margin-top: 30px}
-.community_sub_title {width: 350px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 5px}
-.community_sub_title2 {width: 350px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 5px}
+.community_sub_title {width: 350px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 3px}
+.community_sub_title2 {width: 350px; background: url("/images/main_mypage_menu_line.gif") repeat-x bottom; padding-bottom: 3px}
 .community_sub_title span {padding: 0 10px; font-size: 15px; font-weight: bold; color: gray}
 .community_sub_title2 span {padding: 0 10px; font-size: 15px; font-weight: bold; color: gray}
 .community_sub_content {width: 350px; height: 120px; margin: 10px 0}
