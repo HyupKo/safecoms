@@ -65,9 +65,9 @@
 					<div class="comment_header">
 						<span class="comment_user">ID : <strong>sdlink</strong>(국승욱) &nbsp;등급: <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20</span>
 						<span class="comment_modify">
-							<a onclick="#">답글</a>
-							<a onclick="#">수정</a>
-							<a onclick="#">삭제</a>
+							<a onclick="">답글</a>
+							<a onclick="">수정</a>
+							<a onclick="">삭제</a>
 						</span>
 					</div>
 					<p class="comments">
@@ -78,9 +78,9 @@
 					<div class="comment_header">
 						<span class="comment_user">ID : <strong>sdlink</strong>(국승욱) &nbsp;등급: <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20</span>
 						<span class="comment_modify">
-							<a onclick="#">답글</a>
-							<a onclick="#">수정</a>
-							<a onclick="#">삭제</a>
+							<a onclick="">답글</a>
+							<a onclick="">수정</a>
+							<a onclick="">삭제</a>
 						</span>
 					</div>
 					<p class="comments">
@@ -91,9 +91,9 @@
 					<div class="comment_header">
 						<span class="comment_user">ID : <strong>sdlink</strong>(국승욱) &nbsp;등급: <img class="" alt="골드등급" src="/images/grade_gold.gif"> 2012-08-22 15:30:20</span>
 						<span class="comment_modify">
-							<a onclick="#">답글</a>
-							<a onclick="#">수정</a>
-							<a onclick="#">삭제</a>
+							<a onclick="">답글</a>
+							<a onclick="">수정</a>
+							<a onclick="">삭제</a>
 						</span>
 					</div>
 					<p class="comments">
