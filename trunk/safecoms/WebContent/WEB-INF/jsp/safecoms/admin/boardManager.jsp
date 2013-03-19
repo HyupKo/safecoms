@@ -27,7 +27,7 @@ function writeForm(){
 	<h3>게시판 관리</h3>
 	
 	<div>
-		<table width="650px">
+		<table class="border_manager_table">
 			<colgroup>
 				<col width="22%">
 				<col width="22%">
