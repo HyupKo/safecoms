@@ -3,7 +3,7 @@
 <%@ page import = "com.oreilly.servlet.MultipartRequest"%>
 <%@ page import = "java.util.Enumeration" %>
 <%
-ServletContext context=getServletContext();
+/* ServletContext context=getServletContext();
 String filePath= context.getRealPath("files");
 
 try{
@@ -12,7 +12,7 @@ try{
 }
 catch(Exception e){
 	System.out.println(e);
-}
+} */
 //for (Enumeration e = mRequest.getFileNames(); e.hasMoreElements() ; ){ 
 //	String fileNames = mRequest.getFilesystemName((String)e.nextElement()); 
 //} 
