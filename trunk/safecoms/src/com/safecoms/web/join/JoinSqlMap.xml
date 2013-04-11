@@ -8,4 +8,10 @@
 		SELECT 1 FROM DUAL
 	</select>
 	
+	<select id="selectUserId" parameterClass="String" resultClass="String">
+		SELECT	USER_ID
+		FROM	SAFE_USER
+		WHERE USER_ID = #userId#
+	</select>
+	
 </sqlMap>

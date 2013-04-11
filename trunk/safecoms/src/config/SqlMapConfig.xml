@@ -8,5 +8,6 @@
 
 	<!-- 로그인 -->
 	<sqlMap resource="com/safecoms/web/index/IndexSqlMap.xml"/>
+	<sqlMap resource="com/safecoms/web/join/JoinSqlMap.xml"/>
 
 </sqlMapConfig>

@@ -12,6 +12,8 @@
 <script type="text/javascript" src="/common/js/jquery/jquery.form.js"></script>
 <script type="text/javascript" src="/common/js/jquery/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript" src="/dwr/engine.js"></script>
+<script type="text/javascript" src="/dwr/util.js"></script>
 </head>
 <body>
 	<div id="wrap">
