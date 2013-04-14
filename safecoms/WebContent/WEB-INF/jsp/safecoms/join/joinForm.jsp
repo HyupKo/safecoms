@@ -35,6 +35,27 @@ $(document).ready(function() {
 		alert("인증번호 받기.");
 	});
 	
+	$("#fileName2").click(function() {
+		$("#fileName1").val("");
+		$("#fileName2").val("");
+	});
+	
+	$("#fileName2").change(function() {
+		if($("#fileName2").val() != "") {
+			$("#fileName1").val($("#fileName2").val());
+			var image = dwr.util.getValue("fileName2");
+			
+			joinDwrService.uploadUserImage(image, {
+				callback: function(data) {
+					dwr.util.setValue("user_img", data);
+				}, 
+				errorHandler: function(msg, exception) {
+					alert("이미지 업로드 실패.\n" + msg + "\n" + dwr.util.toDescriptiveString(exception, 2));
+				}
+			});
+		}
+	});
+	
 });
 
 /**
@@ -64,7 +85,13 @@ function passwdCheck() {
 		<img class="join_Agree3 mT10" alt="정보입력" src="/images/join034.gif">
 		
 		<div class="join_form">
-			<form action="" method="post" id="joinForm">
+			<form action="" method="post" id="joinForm" enctype="multipart/form-data">
+				<input type="hidden" name="user_nm" value="${whichUser }">
+				<input type="hidden" name="user_nm" value="${user_ci }">
+				<input type="hidden" name="user_nm" value="${user_di }">
+				<input type="hidden" name="user_nm" value="${user_nm }">
+				<input type="hidden" name="user_nm" value="${birthday }">
+				<input type="hidden" name="user_nm" value="${user_identity }">
 				<table>
 					<colgroup>
 						<col width="20%">
@@ -75,7 +102,6 @@ function passwdCheck() {
 							<td>이름</td>
 							<td>
 								${user_nm }
-								<input type="hidden" name="user_nm" value="${user_nm }">
 							</td>
 						</tr>
 						<tr>
@@ -130,13 +156,12 @@ function passwdCheck() {
 						<tr>
 							<td>회원사진</td>
 							<td>
-								<img class="join_Form4" alt="no Image" src="/images/btn/join040.gif">
-								<!-- <img class="join_Form4" alt="대표이미지 찾기" src="/images/btn/join041.gif"> -->
+								<img class="join_Form4" alt="no Image" src="/images/btn/join040.gif" id="user_img">
 								
 								<span class="file_input_dev">
 									<img class="join_Form4" alt="대표이미지 찾기" src="/images/btn/join041.gif">
 									<input type="hidden" name="fileName1" id="fileName1" class="file_input_textbox">
-									<input type="file" class="file_input_hidden2" onchange="document.getElementById('fileName1').value = this.value;">
+									<input type="file" class="file_input_hidden2" id="fileName2">
 								</span>
 							</td>
 						</tr>
