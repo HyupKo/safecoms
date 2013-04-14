@@ -32,7 +32,14 @@ public class JoinController {
 			@RequestParam(defaultValue="", required=true, value="user_nm") String user_nm,
 			@RequestParam(defaultValue="", required=true, value="birthday") String birthday,
 			@RequestParam(defaultValue="", required=true, value="user_identity") String user_identity) {
+		// 파라미터 넘김.
+		request.setAttribute("whichUser", whichUser);
+		request.setAttribute("user_ci", user_ci);
+		request.setAttribute("user_di", user_di);
 		request.setAttribute("user_nm", user_nm);
+		request.setAttribute("birthday", birthday);
+		request.setAttribute("user_identity", user_identity);
+		
 		return "/safecoms/join/joinForm";
 	}
 	
