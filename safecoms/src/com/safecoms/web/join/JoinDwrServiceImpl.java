@@ -6,7 +6,6 @@ import org.directwebremoting.annotations.RemoteProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.safecoms.common.FileUploader;
-import common.Logger;
 
 @RemoteProxy(name="joinDwrService")
 public class JoinDwrServiceImpl implements JoinDwrService {
@@ -30,9 +29,10 @@ public class JoinDwrServiceImpl implements JoinDwrService {
 	 * @return
 	 * @see com.safecoms.web.join.JoinDwrService#uploadUserImage(java.awt.image.BufferedImage)
 	 */
-	@Override
-	public BufferedImage uploadUserImage(BufferedImage uploadImage) {
-		return FileUploader.uploadFiles(uploadImage);
-	}
-	
+//	
+//	@Override
+//	public BufferedImage uploadUserImage(BufferedImage uploadImage) {
+//		return FileUploader.uploadFiles(uploadImage);
+//	}
+//	
 }

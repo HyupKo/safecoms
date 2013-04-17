@@ -16,6 +16,7 @@ public interface JoinDwrService {
 	 * @param uploadImage
 	 * @return
 	 */
-	public BufferedImage uploadUserImage(BufferedImage uploadImage);
+	
+//	public BufferedImage uploadUserImage(BufferedImage uploadImage);
 
 }

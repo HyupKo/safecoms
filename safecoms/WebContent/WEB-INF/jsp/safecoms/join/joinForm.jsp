@@ -35,6 +35,7 @@ $(document).ready(function() {
 		alert("인증번호 받기.");
 	});
 	
+/* 	// 파일 업로드 실패로 주석.
 	$("#fileName2").click(function() {
 		$("#fileName1").val("");
 		$("#fileName2").val("");
@@ -55,7 +56,7 @@ $(document).ready(function() {
 			});
 		}
 	});
-	
+ */	
 });
 
 /**
