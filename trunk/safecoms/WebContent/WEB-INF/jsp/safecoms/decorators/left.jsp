@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class="snb">
 	<!-- 로그인 이전에 코드 -->
-	<div id="snb_before_login">
+	<div id="snb_before_login" <c:if test="${!empty session_user_id }">style="display:none"</c:if>>
 		<table>
 			<colgroup>
 				<col width="50px">
@@ -40,7 +41,7 @@
 	</div>
 	
 	<!-- 로그인 이후에 코드 -->
-	<div id="snb_after_login" style="display:none;">
+	<div id="snb_after_login" <c:if test="${empty session_user_id }">style="display:none"</c:if>>
 		
 	</div>
 	

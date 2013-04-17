@@ -11,7 +11,19 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class JoinController {
 	
-	//@Autowired private JoinService joinService;
+	@Autowired private JoinService joinService;
+	
+	/**
+	 * 로그인 백도어.
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("/safecoms/loginBackdoor")
+	public String testLogin(HttpServletRequest request, HttpServletResponse response) {
+		request.getSession().setAttribute("user_id", "test");
+		return "redirect:/safecoms/index";
+	}
 	
 	/**
 	 * 가입 동의.
@@ -24,6 +36,18 @@ public class JoinController {
 		return "/safecoms/join/joinAgree";
 	}
 	
+	/**
+	 * 회원가입 입력 폼.
+	 * @param request
+	 * @param response
+	 * @param whichUser
+	 * @param user_ci
+	 * @param user_di
+	 * @param user_nm
+	 * @param birthday
+	 * @param user_identity
+	 * @return
+	 */
 	@RequestMapping(value="/safecoms/join/joinForm")
 	public String joinForm(HttpServletRequest request, HttpServletResponse response,
 			@RequestParam(defaultValue="", required=true, value="whichUser") String whichUser,
@@ -43,6 +67,12 @@ public class JoinController {
 		return "/safecoms/join/joinForm";
 	}
 	
+	/**
+	 * 화원가입 완료.
+	 * @param request
+	 * @param response
+	 * @return
+	 */
 	@RequestMapping(value="/safecoms/join/joinOk")
 	public String joinOk(HttpServletRequest request, HttpServletResponse response) {
 		return "/safecoms/join/joinOk";
