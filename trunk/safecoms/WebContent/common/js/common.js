@@ -982,3 +982,84 @@ function time_check(e, value) {
 	
 	return time_format(value);
 }
+
+
+/**
+ * html <select> 태그의 option 을 추가하는 함수
+ * DB쿼리에서 얻은 결과를 caption과 value값으로 나타내어
+ * select box에 옵션을 추가
+ * @param: select box ID
+ * @param: codevalue DB col id
+ * @param: 기본 select 값 선택, null일경우 첫번째 값
+ */
+function selectBox(selId,dbCode,defaultValue){
+	var args = "000000::"+dbCode;
+	var params = "key=cm.MakeSelectBox&dev_no=cm.common&biz_key=&sPos=0&args="+args;
+	cfMakeSelectBoxCustom(selId,params,defaultValue);
+}
+
+/**
+ * html <select> 태그의 option 을 추가하는 함수(고정쿼리가 아닌 사용자 선택 쿼리로 생성)
+ * DB쿼리에서 얻은 결과를 caption과 value값으로 나타내어
+ * select box에 옵션을 추가
+ * 쿼리 생성시에 caption과 value로 컬럼명 닉네임 설정
+ * @param: select box ID
+ * @param: key, dev_no, biz_key, sPos, args 파라미터 나열하여 해당쿼리의 결과로 select box 생성
+ * @param: 기본 select 값 선택, null일경우 첫번째 값
+ */
+function selectBoxCustom(selId,params,defaultValue){
+	var selectElement = jQuery(selId).get(0);
+	jQuery.ajax({
+		type:"POST",
+		url:"/jsp/DML/ExecuteQueryJSON.jsp",
+		dataType:"text",
+		data:params,
+		async:false,
+		success:function(result){
+			var datas = eval("("+result.trim()+")");
+			jQuery.each(datas,function(index,optionData){
+		        var option = new Option(optionData.caption, optionData.value, true, optionData.value==defaultValue);
+		        if (jQuery.browser.msie) {
+		        	selectElement.add(option);
+		        }
+		        else {
+		        	selectElement.add(option,null);
+		        }
+			});
+		}
+	});
+}
+
+/**
+ * DB쿼리에서 얻은 결과로 자동완성기능을 구현
+ * 해당 input id에 json타입으로 데이터를 넘겨줌
+ * 2글자 이상부터 db쿼리 조회, db 컬럼명은 VALUE로 닉네임 설정 
+ * @param: select box ID
+ */
+function autoComplete(inputId){
+	cfMakeAutoCompleteCustom(inputId, "key=cm.CorpAutoComplete&dev_no=cm.common&biz_key=&sPos=0");
+}
+
+/**
+ * DB쿼리에서 얻은 결과로 자동완성기능을 구현
+ * 해당 input id에 json타입으로 데이터를 넘겨줌
+ * 2글자 이상부터 db쿼리 조회, db 컬럼명은 VALUE로 닉네임 설정 
+ * @param: select box ID
+ */
+function autoCompleteCustom(inputId, params){
+	jQuery(inputId).autocomplete({
+	    source:function(request, response){
+	    	if(String(request.term).trim().length>0){
+	    		jQueryAjax("/jsp/DML/ExecuteQueryJSON.jsp", params+"&args="+request.term, function(result){
+	    			var data = eval("("+result.trim()+")");
+		    	    response( jQuery.map(data, function(item){
+		    	    	return {
+		    	    		value: String(item.value).trim()
+		    	    	}
+		    	    }));
+	    		}, "POST");
+	    	}
+	    },
+	    minLength: 2
+    });
+}

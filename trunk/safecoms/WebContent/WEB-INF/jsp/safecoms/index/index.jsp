@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<script type="text/javascript" src="/dwr/interface/indexDwrService.js"></script>
 </head>
 <body>
 	<div class="content">
