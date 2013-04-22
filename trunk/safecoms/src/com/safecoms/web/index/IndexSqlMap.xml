@@ -3,9 +3,8 @@
 	PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" 
 		"http://ibatis.apache.org/dtd/sql-map-2.dtd">
 <sqlMap namespace="index">
-	
-	<select id="testDbConnection" resultClass="String">
-		SELECT 1 FROM DUAL
+	<select id="selectCategory" resultClass="String">
+		SELECT 1 FROM SAFE_CODE WHERE COL_ID='CATEGORY'
 	</select>
 	
 </sqlMap>

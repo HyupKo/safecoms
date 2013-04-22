@@ -10,8 +10,8 @@ public class IndexDaoImpl implements IndexDao {
 	@Autowired private SqlMapClientTemplate sqlMapClientTemplate;
 
 	@Override
-	public String testDbConnection() {
-		return (String) sqlMapClientTemplate.queryForObject("index.testDbConnection");
+	public String selectCategory() {
+		return (String) sqlMapClientTemplate.queryForObject("index.selectCategory");
 	}
 
 }
