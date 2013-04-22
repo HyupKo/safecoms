@@ -8,9 +8,4 @@ public class IndexServiceImpl implements IndexService {
 	
 	@Autowired private IndexDao indexDao;
 
-	@Override
-	public String testDbConnection() {
-		return indexDao.testDbConnection();
-	}
-
 }
